@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.22)  22 DEC 2022 19:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.22)  23 DEC 2022 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -221,7 +221,7 @@ LaTeX Warning: Unused global option(s):
     [onepage].
 
 (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
-(chapter_3.aux) (chapter_4.aux) (appendix_A.aux) (appendix_B.aux))
+(chapter_3.aux) (chapter_4.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -345,6 +345,12 @@ Package pdftex.def Info: figures//PAQIApp.jpg  used on input line 19.
 
  (chapter_2.tex
 Chapter 2.
+
+Overfull \hbox (9.25375pt too wide) in paragraph at lines 44--45
+\OT1/cmr/m/n/12 The Philip-pines cur-rently has a prob-lem with air pol-lu-tion
+. Ac-cord-ing to []Tantengco
+ []
+
 [6
 
 
@@ -370,54 +376,119 @@ Chapter 4.
 
 
 
-]
-\openout2 = `appendix_A.aux'.
-
- (appendix_A.tex
-Appendix A.
-) [17
-
-
-
-
-]
-\openout2 = `appendix_B.aux'.
-
- (appendix_B.tex
-Appendix B.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 29--26
-
+] (main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 14--30
+\OT1/cmtt/m/n/12 articles / news / asia / news [] -health [] -experts [] -phili
+ppines [] -lead [] -fight []
  []
 
-[18
+
+Underfull \hbox (badness 2809) in paragraph at lines 67--82
+[]\OT1/cmr/m/n/12 BitRefine Heads.  (n.d.[]).  \OT1/cmr/m/it/12 Bi-tre-fine hea
+ds ve-hi-cle recog-ni-tion soft-ware.
+ []
+
+
+Underfull \hbox (badness 5802) in paragraph at lines 67--82
+\OT1/cmr/m/n/12 Re-trieved from $\OT1/cmtt/m/n/12 https :// heads [] .bitrefine
+ [] .group / use [] -cases / vehicle []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--139
+\OT1/cmtt/m/n/12 -releases / purchase [] -of [] -air [] -monitoring [] -equipme
+nt [] -aboveboard [] -emb$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--166
+\OT1/cmtt/m/n/12 -releases / 1490 [] -denr [] -air [] -quality [] -monitoring [
+] -is [] -a [] -top [] -priority$
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 180--199
+[]\OT1/cmr/m/n/12 Enano, J. O., & Sub-ing-sub-ing, K.  (2019, Jun).  Clean air 
+act 20
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 180--199
+\OT1/cmr/m/n/12 years later: Edsa still `worst place to be'.  \OT1/cmr/m/it/12 
+In-quirer.Net\OT1/cmr/m/n/12 .  Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--227
+\OT1/cmtt/m/n/12 https :// emb [] .gov [] .ph / wp [] -content / uploads / 2015
+ / 09 / 1 [] -Air [] -Quality [] -1 []
+ []
+
+[17
 
 
 
+]
+Underfull \hbox (badness 1460) in paragraph at lines 319--335
+[]\OT1/cmr/m/n/12 Gandhi, R.  (2018, Jul).  \OT1/cmr/m/it/12 R-cnn, fast r-cnn,
+ faster r-cnn, yolo - ob-
+ []
 
-] (main.bbl) [19
+
+Underfull \hbox (badness 1655) in paragraph at lines 319--335
+\OT1/cmr/m/it/12 ject de-tec-tion al-go-rithms.  \OT1/cmr/m/n/12 To-wards Data 
+Sci-ence.  Re-trieved from
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 319--335
+\OT1/cmtt/m/n/12 https :// towardsdatascience [] .com / r [] -cnn [] -fast [] -
+r [] -cnn [] -faster [] -r [] -cnn []
+ []
 
-] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux)
-(chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (appendix_A.aux)
-(appendix_B.aux)) ) 
+
+Underfull \hbox (badness 4291) in paragraph at lines 613--627
+[]\OT1/cmr/m/n/12 Saravi, S., & Ediris-inghe, E.  (2017, March).  Ve-hi-cle mak
+e and
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 613--627
+\OT1/cmr/m/n/12 model recog-ni-tion in CCTV footage.  Re-trieved from $\OT1/cmt
+t/m/n/12 https ://
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--627
+\OT1/cmtt/m/n/12 repository [] .lboro [] .ac [] .uk / articles / journal [] []c
+ontribution / Vehicle []
+ []
+
+[18]
+Underfull \hbox (badness 1931) in paragraph at lines 641--660
+\OT1/cmr/m/n/12 trieved from $\OT1/cmtt/m/n/12 https :// www [] .sciencedirect 
+[] .com / science / article / pii /
+ []
+
+) [19] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux
+) (chapter_3.aux) (chapter_4.aux)) ) 
 Here is how much of TeX's memory you used:
- 4907 strings out of 478338
- 78856 string characters out of 2836700
- 383350 words of memory out of 3000000
- 23206 multiletter control sequences out of 15000+600000
+ 4921 strings out of 478338
+ 77811 string characters out of 2836700
+ 388003 words of memory out of 3000000
+ 23234 multiletter control sequences out of 15000+600000
  477518 words of font info for 59 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 77i,10n,81p,1163b,295s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\airco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
-en/ec/dpi600\tcrm1200.pk><C:/Users/airco/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb><C:/Users/airco/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/airco/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/airco/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/airco/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (25 pages, 225631 bytes).
+ 77i,10n,81p,1158b,336s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\airco\AppData\Local\MiKTeX\fonts
+/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/airco/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/airco/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/airco/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/
+airco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><
+C:/Users/airco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmt
+t12.pfb>
+Output written on main.pdf (25 pages, 239632 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

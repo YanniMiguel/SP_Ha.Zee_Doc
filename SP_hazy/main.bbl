@@ -1,262 +1,879 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Fedkiw%
-, Stam%
-\BCBL {}\ \BBA {} Jensen%
+Abano%
 }{%
-Fedkiw%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2001}}%
+Abano%
+}{%
+{\protect \APACyear {2019}}%
 }]{%
-fedkiw:2001:VSO}
+abano_2019}
 \APACinsertmetastar {%
-fedkiw:2001:VSO}%
+abano_2019}%
 \begin{APACrefauthors}%
-Fedkiw, R.%
-, Stam, J.%
-\BCBL {}\ \BBA {} Jensen, H\BPBI W.%
+Abano, I\BPBI V.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2001}{}{}.
+\APACrefYearMonthDay{2019}{Jun}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Visual Simulation of Smoke} {Visual simulation of
-  smoke}.{\BBCQ}
+\APACrefbtitle {In the news: Health experts in the Philippines lead the fight
+  against Dirty Air.} {In the news: Health experts in the philippines lead the
+  fight against dirty air.}
 \newblock
-\BIn{} E.~Fiume\ (\BED), \APACrefbtitle {Proceedings of SIGGRAPH 2001}
-  {Proceedings of siggraph 2001}\ (\BPGS\ 15--22).
+\begin{APACrefURL}
+  \url{https://noharm-global.org/articles/news/asia/news-health-experts-philippines-lead-fight-against-dirty-air}
+  \end{APACrefURL}
 \newblock
-\APACaddressPublisher{}{ACM Press / ACM SIGGRAPH}.
+\APACrefnote{Accessed: 2022-12-05}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Jobson%
-, Rahman%
-\BCBL {}\ \BBA {} Woodell%
+Akimoto%
 }{%
-Jobson%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1995}}%
+Akimoto%
+}{%
+{\protect \APACyear {2004}}%
 }]{%
-Jobs95}
+Akimoto2004}
 \APACinsertmetastar {%
-Jobs95}%
+Akimoto2004}%
 \begin{APACrefauthors}%
-Jobson, D\BPBI J.%
-, Rahman, Z.%
-\BCBL {}\ \BBA {} Woodell, G\BPBI A.%
+Akimoto, H.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{1995}{}{}.
+\APACrefYearMonthDay{2004}{01}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Retinex image processing: Improved fidelity to direct
-  visual observation} {Retinex image processing: Improved fidelity to direct
-  visual observation}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Global Air Quality and Pollution} {Global air quality
+  and pollution}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the IS\&T Fourth Color Imaging
-  Conference: Color Science, Systems, and Applications} {Proceedings of the
-  is\&t fourth color imaging conference: Color science, systems, and
-  applications}\ (\BVOL~4, \BPGS\ 124--125).
+\APACjournalVolNumPages{Science (New York, N.Y.)}{302}{}{1716-9}.
+\newblock
+\begin{APACrefDOI} \doi{10.1126/science.1092666} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Kartch%
+{BitRefine Heads}%
 }{%
-Kartch%
+{BitRefine Heads}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+BITREFINE_ND}
+\APACinsertmetastar {%
+BITREFINE_ND}%
+\begin{APACrefauthors}%
+{BitRefine Heads}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {BitRefine Heads Vehicle recognition software.} {Bitrefine heads
+  vehicle recognition software.}
+\newblock
+\begin{APACrefURL}
+  \url{https://heads.bitrefine.group/use-cases/vehicle-recognition/115-vehicle-recognition}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2022-12-04}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chintalacheruvu%
+\ \BBA {} Muthukumar%
+}{%
+Chintalacheruvu%
+\ \BBA {} Muthukumar%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+chintalacheruvu_2012}
+\APACinsertmetastar {%
+chintalacheruvu_2012}%
+\begin{APACrefauthors}%
+Chintalacheruvu, N.%
+\BCBT {}\ \BBA {} Muthukumar, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Video based vehicle detection and its application in
+  Intelligent Transportation Systems} {Video based vehicle detection and its
+  application in intelligent transportation systems}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Transportation
+  Technologies}{02}{04}{305–314}.
+\newblock
+\begin{APACrefDOI} \doi{10.4236/jtts.2012.24033} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+DENR%
+}{%
+DENR%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+DENR_ND}
+\APACinsertmetastar {%
+DENR_ND}%
+\begin{APACrefauthors}%
+DENR.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {PURCHASE OF AIR MONITORING EQUIPMENT ABOVEBOARD- EMB.}
+  {Purchase of air monitoring equipment aboveboard- emb.}
+\newblock
+\begin{APACrefURL}
+  \url{https://ncr.denr.gov.ph/index.php/news-events/press-releases/purchase-of-air-monitoring-equipment-aboveboard-emb}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2022-12-07}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+DENR%
+}{%
+DENR%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+DENR2020}
+\APACinsertmetastar {%
+DENR2020}%
+\begin{APACrefauthors}%
+DENR.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{{\APACmonth{03}}}{15}.
+\newblock
+\APACrefbtitle {DENR: AIR QUALITY MONITORING IS A TOP PRIORITY.} {Denr: Air
+  quality monitoring is a top priority.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.denr.gov.ph/index.php/news-events/press-releases/1490-denr-air-quality-monitoring-is-a-top-priority}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2022-12-07}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Enano%
+\ \BBA {} Subingsubing%
+}{%
+Enano%
+\ \BBA {} Subingsubing%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+enano_subingsubing_2019}
+\APACinsertmetastar {%
+enano_subingsubing_2019}%
+\begin{APACrefauthors}%
+Enano, J\BPBI O.%
+\BCBT {}\ \BBA {} Subingsubing, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{Jun}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Clean Air Act 20 years later: Edsa still ‘worst place
+  to be’} {Clean air act 20 years later: Edsa still ‘worst place to
+  be’}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Inquirer.Net}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://newsinfo.inquirer.net/1135618/clean-air-act-20-years-later-edsa-still-worst-place-to-be}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2022-12-06}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Environmental Management Bureau}%
+}{%
+{Environmental Management Bureau}%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+EMB_2015}
+\APACinsertmetastar {%
+EMB_2015}%
+\begin{APACrefauthors}%
+{Environmental Management Bureau}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{Sep}{}.
+\newblock
+\APACrefbtitle {Environmental Management Bureau | initially established as a
+  supporting ...} {Environmental management bureau | initially established as a
+  supporting ...}
+\newblock
+\begin{APACrefURL}
+  \url{https://emb.gov.ph/wp-content/uploads/2015/09/1-Air-Quality-1.8-National-Air-Quality-Status-Report-2008-2015.pdf}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2022-12-05}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Environmental Management Bureau}%
+}{%
+{Environmental Management Bureau}%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+EMB_2018}
+\APACinsertmetastar {%
+EMB_2018}%
+\begin{APACrefauthors}%
+{Environmental Management Bureau}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {Emissions inventory 2018.} {Emissions inventory 2018.}
+\newblock
+\begin{APACrefURL} \url{https://air.emb.gov.ph/emission-inventory-2018/}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2022-12-05}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fabian%
+\ \BBA {} Gota%
+}{%
+Fabian%
+\ \BBA {} Gota%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+FabianGota2009}
+\APACinsertmetastar {%
+FabianGota2009}%
+\begin{APACrefauthors}%
+Fabian, H.%
+\BCBT {}\ \BBA {} Gota, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{01}{}.
+\newblock
+{\BBOQ}\APACrefatitle {CO2 Emissions from the Land Transport Sector in the
+  Philippines: Estimates and Policy Implications} {Co2 emissions from the land
+  transport sector in the philippines: Estimates and policy
+  implications}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Food and Agriculture Organization of the United Nations}%
+}{%
+{Food and Agriculture Organization of the United Nations}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+FAO}
+\APACinsertmetastar {%
+FAO}%
+\begin{APACrefauthors}%
+{Food and Agriculture Organization of the United Nations}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Philippine Clean Air Act of 1999, Republic Act No. 8749.}
+  {Philippine clean air act of 1999, republic act no. 8749.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.fao.org/faolex/results/details/en/c/LEX-FAOC045271/}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2022-12-05}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gandhi%
+}{%
+Gandhi%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+gandhi_2018}
+\APACinsertmetastar {%
+gandhi_2018}%
+\begin{APACrefauthors}%
+Gandhi, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{Jul}{}.
+\newblock
+\APACrefbtitle {R-CNN, fast R-CNN, Faster R-CNN, YOLO - object detection
+  algorithms.} {R-cnn, fast r-cnn, faster r-cnn, yolo - object detection
+  algorithms.}
+\newblock
+\APACaddressPublisher{}{Towards Data Science}.
+\newblock
+\begin{APACrefURL}
+  \url{https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hassan%
+, Ali%
+, Durrani%
+\BCBL {}\ \BBA {} Tahir%
+}{%
+Hassan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Hassan2021}
+\APACinsertmetastar {%
+Hassan2021}%
+\begin{APACrefauthors}%
+Hassan, A.%
+, Ali, M.%
+, Durrani, N.%
+\BCBL {}\ \BBA {} Tahir, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{June}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An Empirical Analysis of Deep Learning Architectures for
+  Vehicle Make and Model Recognition} {An empirical analysis of deep learning
+  architectures for vehicle make and model recognition}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Access}{PP}{}{1-1}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ACCESS.2021.3090766} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Huang%
+, Hsieh%
+\BCBL {}\ \BBA {} Tsai%
+}{%
+Huang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+Huang_2017}
+\APACinsertmetastar {%
+Huang_2017}%
+\begin{APACrefauthors}%
+Huang, B\BHBI J.%
+, Hsieh, J\BHBI W.%
+\BCBL {}\ \BBA {} Tsai, C\BHBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Vehicle Detection in Hsuehshan Tunnel Using Background
+  Subtraction and Deep Belief Network} {Vehicle detection in hsuehshan tunnel
+  using background subtraction and deep belief network}.{\BBCQ}
+\newblock
+\BIn{} N\BPBI T.~Nguyen, S.~Tojo, L\BPBI M.~Nguyen\BCBL {}\ \BBA {}
+  B.~Trawi{\'{n}}ski\ (\BEDS), \APACrefbtitle {Intelligent Information and
+  Database Systems} {Intelligent information and database systems}\ (\BPGS\
+  217--226).
+\newblock
+\APACaddressPublisher{Cham}{Springer International Publishing}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Li%
+, Deng%
+, Cheng%
+, Hu%
+\BCBL {}\ \BBA {} Shen%
+}{%
+Li%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+li_2022}
+\APACinsertmetastar {%
+li_2022}%
+\begin{APACrefauthors}%
+Li, K.%
+, Deng, R.%
+, Cheng, Y.%
+, Hu, R.%
+\BCBL {}\ \BBA {} Shen, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Research on vehicle detection and recognition based on
+  infrared image and feature extraction} {Research on vehicle detection and
+  recognition based on infrared image and feature extraction}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Mobile Information Systems}{2022}{}{1–10}.
+\newblock
+\begin{APACrefDOI} \doi{10.1155/2022/6154614} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lilly%
+}{%
+Lilly%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+Lilly_ND}
+\APACinsertmetastar {%
+Lilly_ND}%
+\begin{APACrefauthors}%
+Lilly, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {CO2 emission search by manufacture, make and model 2023.} {Co2
+  emission search by manufacture, make and model 2023.}
+\newblock
+\begin{APACrefURL} \url{https://www.nextgreencar.com/emissions/make-model/}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2022-12-04}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lu%
+}{%
+Lu%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+lu_2022}
+\APACinsertmetastar {%
+lu_2022}%
+\begin{APACrefauthors}%
+Lu, J\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Environmental pollution towards the workplace in the
+  Philippines} {Environmental pollution towards the workplace in the
+  philippines}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Acta Medica Philippina}{56}{1}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.47895/amp.v56i1.3889} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Meng%
+, Bao%
+\BCBL {}\ \BBA {} Ma%
+}{%
+Meng%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+Meng_2020}
+\APACinsertmetastar {%
+Meng_2020}%
+\begin{APACrefauthors}%
+Meng, C.%
+, Bao, H.%
+\BCBL {}\ \BBA {} Ma, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{sep}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Vehicle Detection: A Review} {Vehicle detection: A
+  review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Physics: Conference
+  Series}{1634}{1}{012107}.
+\newblock
+\begin{APACrefURL} \url{https://dx.doi.org/10.1088/1742-6596/1634/1/012107}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1088/1742-6596/1634/1/012107} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{myclimate Foundation}%
+}{%
+{myclimate Foundation}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+MCF_ND}
+\APACinsertmetastar {%
+MCF_ND}%
+\begin{APACrefauthors}%
+{myclimate Foundation}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Car CO2 emissions calculator – Carbon offset car.} {Car co2
+  emissions calculator – carbon offset car.}
+\newblock
+\begin{APACrefURL} \url{https://co2.myclimate.org/en/car_calculators/new}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2022-12-04}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nath%
+\ \BBA {} Deb%
+}{%
+Nath%
+\ \BBA {} Deb%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+NathDeb2012}
+\APACinsertmetastar {%
+NathDeb2012}%
+\begin{APACrefauthors}%
+Nath, R\BPBI K.%
+\BCBT {}\ \BBA {} Deb, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{09}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Vehicle Detection Based on Video for Traffic
+  Surveillance on road} {Vehicle detection based on video for traffic
+  surveillance on road}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{}{3}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Platt%
+\ \BBA {} Stutz%
+}{%
+Platt%
+\ \BBA {} Stutz%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+PlattEtAl2008}
+\APACinsertmetastar {%
+PlattEtAl2008}%
+\begin{APACrefauthors}%
+Platt, U.%
+\BCBT {}\ \BBA {} Stutz, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2008}.
+\newblock
+\APACrefbtitle {Differential Optical Absorption Spectroscopy
+  (DOAS)—Principles and Applications} {Differential optical absorption
+  spectroscopy (doas)—principles and applications}\ (\BVOL~15).
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-3-540-75776-4} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Saravi%
+\ \BBA {} Edirisinghe%
+}{%
+Saravi%
+\ \BBA {} Edirisinghe%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Saravi2017}
+\APACinsertmetastar {%
+Saravi2017}%
+\begin{APACrefauthors}%
+Saravi, S.%
+\BCBT {}\ \BBA {} Edirisinghe, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{March}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Vehicle make and model recognition in CCTV footage}}
+  {{Vehicle make and model recognition in CCTV footage}}.{\BBCQ}
+\newblock
+\begin{APACrefURL}
+  \url{https://repository.lboro.ac.uk/articles/journal_contribution/Vehicle_make_and_model_recognition_in_CCTV_footage/9405035}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tantengco%
+\ \BBA {} Guinto%
+}{%
+Tantengco%
+\ \BBA {} Guinto%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+TANTENGCO2022}
+\APACinsertmetastar {%
+TANTENGCO2022}%
+\begin{APACrefauthors}%
+Tantengco, O\BPBI A\BPBI G.%
+\BCBT {}\ \BBA {} Guinto, R\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Tackling air pollution in the Philippines} {Tackling air
+  pollution in the philippines}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Lancet Planetary Health}{6}{4}{e300}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/pii/S2542519622000651}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/S2542-5196(22)00065-1}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{V-App - Vehicle Detection}%
+}{%
+{V-App - Vehicle Detection}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+VAPP_ND}
+\APACinsertmetastar {%
+VAPP_ND}%
+\begin{APACrefauthors}%
+{V-App - Vehicle Detection}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {PPE Detection - Vehicle Detection.} {Ppe detection - vehicle
+  detection.}
+\newblock
+\begin{APACrefURL} \url{https://www.v-app.io/vehicle-detection/}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2022-12-04}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vergel%
+\ \BBA {} Yai%
+}{%
+Vergel%
+\ \BBA {} Yai%
 }{%
 {\protect \APACyear {2000}}%
 }]{%
-kartch:2000:ERA}
+vergel_yai2000}
 \APACinsertmetastar {%
-kartch:2000:ERA}%
+vergel_yai2000}%
 \begin{APACrefauthors}%
-Kartch, D.%
+Vergel, K\BPBI N.%
+\BCBT {}\ \BBA {} Yai, T.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYear{2000}.
-\unskip\
+\APACrefYearMonthDay{2000}{July}{21}.
 \newblock
-\APACrefbtitle {Efficient Rendering and Compression for Full-Parallax
-  Computer-Generated Holographic Stereograms} {Efficient rendering and
-  compression for full-parallax computer-generated holographic stereograms}\
-  \APACtypeAddressSchool {\BUPhD}{}{}.
-\unskip\
+{\BBOQ}\APACrefatitle {Analysis of Road Traffic Flow and Traffic Environment in
+  Metro Manila} {Analysis of road traffic flow and traffic environment in metro
+  manila}.{\BBCQ}
 \newblock
-\APACaddressSchool {}{Cornell University}.
+\BIn{} \APACrefbtitle {The 8th Annual Conference of Transportation Science
+  Society of the Philippines.} {The 8th annual conference of transportation
+  science society of the philippines.}
+\newblock
+\begin{APACrefURL}
+  \url{https://ncts.upd.edu.ph/tssp/wp-content/uploads/2018/08/Vergel00.pdf}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Levoy%
+Yan%
+, Fan%
+, Lei%
+, Liu%
+\BCBL {}\ \BBA {} Yang%
+}{%
+Yan%
 \ \protect \BOthers {.}}{%
-Levoy%
+{\protect \APACyear {2021}}%
+}]{%
+yan_2021}
+\APACinsertmetastar {%
+yan_2021}%
+\begin{APACrefauthors}%
+Yan, B.%
+, Fan, P.%
+, Lei, X.%
+, Liu, Z.%
+\BCBL {}\ \BBA {} Yang, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A real-time Apple targets detection method for picking
+  robot based on improved Yolov5} {A real-time apple targets detection method
+  for picking robot based on improved yolov5}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Remote Sensing}{13}{9}{1619}.
+\newblock
+\begin{APACrefDOI} \doi{10.3390/rs13091619} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yang%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {2000}}%
-}]{%
-levoy:2000:TDM}
-\APACinsertmetastar {%
-levoy:2000:TDM}%
-\begin{APACrefauthors}%
-Levoy, M.%
-, Pulli, K.%
-, Curless, B.%
-, Rusinkiewicz, S.%
-, Koller, D.%
-, Pereira, L.%
-\BDBL {}Fulk, D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2000}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The Digital Michelangelo Project} {The digital
-  michelangelo project}.{\BBCQ}
-\newblock
-\BIn{} K.~Akeley\ (\BED), \APACrefbtitle {Proceedings of SIGGRAPH 2000}
-  {Proceedings of siggraph 2000}\ (\BPGS\ 131--144).
-\newblock
-\APACaddressPublisher{New York}{ACM Press / ACM SIGGRAPH}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Park%
-, Linsen%
-, Kreylos%
-, Owens%
-\BCBL {}\ \BBA {} Hamann%
-}{%
-Park%
+Yang%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {2006}}%
+{\protect \APACyear {2020}}%
 }]{%
-Park:2006:DSI}
+yang_2020}
 \APACinsertmetastar {%
-Park:2006:DSI}%
+yang_2020}%
 \begin{APACrefauthors}%
-Park, S\BPBI W.%
-, Linsen, L.%
-, Kreylos, O.%
-, Owens, J\BPBI D.%
-\BCBL {}\ \BBA {} Hamann, B.%
+Yang, B.%
+, Tang, M.%
+, Chen, S.%
+, Wang, G.%
+, Tan, Y.%
+\BCBL {}\ \BBA {} Li, B.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2006}{{\APACmonth{03}}\slash {\APACmonth{04}}}{}.
+\APACrefYearMonthDay{2020}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Discrete Sibson interpolation} {Discrete sibson
-  interpolation}.{\BBCQ}
+{\BBOQ}\APACrefatitle {A vehicle tracking algorithm combining detector and
+  Tracker} {A vehicle tracking algorithm combining detector and
+  tracker}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{IEEE Transactions on Visualization and Computer
-  Graphics}{12}{2}{243--253}.
+\APACjournalVolNumPages{EURASIP Journal on Image and Video
+  Processing}{2020}{1}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1186/s13640-020-00505-7} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Parke%
-\ \BBA {} Waters%
-}{%
-Parke%
-\ \BBA {} Waters%
-}{%
-{\protect \APACyear {1996}}%
-}]{%
-parke:1996:CFA}
-\APACinsertmetastar {%
-parke:1996:CFA}%
-\begin{APACrefauthors}%
-Parke, F\BPBI I.%
-\BCBT {}\ \BBA {} Waters, K.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1996}.
-\newblock
-\APACrefbtitle {Computer Facial Animation} {Computer facial animation}.
-\newblock
-\APACaddressPublisher{}{A. K. Peters}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Pellacini%
+Zheng%
 \ \protect \BOthers {.}}{%
-Pellacini%
+Zheng%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {2005}}%
+{\protect \APACyear {2016}}%
 }]{%
-Pellacini:2005:LAH}
+zheng_2016}
 \APACinsertmetastar {%
-Pellacini:2005:LAH}%
+zheng_2016}%
 \begin{APACrefauthors}%
-Pellacini, F.%
-, Vidim{\v{c}}e, K.%
-, Lefohn, A.%
-, Mohr, A.%
-, Leone, M.%
-\BCBL {}\ \BBA {} Warren, J.%
+Zheng, K.%
+, Zhao, S.%
+, Yang, Z.%
+, Xiong, X.%
+, Xiang, W.%
+\BCBL {}\ \BBA {} et al.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2005}{{\APACmonth{08}}}{}.
+\APACrefYearMonthDay{2016}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Lpics: a Hybrid Hardware-Accelerated Relighting Engine
-  for Computer Cinematography} {Lpics: a hybrid hardware-accelerated relighting
-  engine for computer cinematography}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Design and implementation of LPWA-based air quality
+  monitoring system} {Design and implementation of lpwa-based air quality
+  monitoring system}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{ACM Transactions on Graphics}{24}{3}{464--470}.
+\APACjournalVolNumPages{IEEE Access}{4}{}{3238–3245}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/access.2016.2582153} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Sako%
-\ \BBA {} Fujimura%
+Zhou%
+, Zhao%
+\BCBL {}\ \BBA {} Nie%
 }{%
-Sako%
-\ \BBA {} Fujimura%
-}{%
-{\protect \APACyear {2000}}%
+Zhou%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
 }]{%
-sako:2001:SSB}
+zhou_2021}
 \APACinsertmetastar {%
-sako:2001:SSB}%
+zhou_2021}%
 \begin{APACrefauthors}%
-Sako, Y.%
-\BCBT {}\ \BBA {} Fujimura, K.%
+Zhou, F.%
+, Zhao, H.%
+\BCBL {}\ \BBA {} Nie, Z.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2000}{}{}.
+\APACrefYearMonthDay{2021}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Shape Similarity by Homotropic Deformation} {Shape
-  similarity by homotropic deformation}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Safety helmet detection based on Yolov5} {Safety helmet
+  detection based on yolov5}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{The Visual Computer}{16}{1}{47--61}.
+\APACjournalVolNumPages{2021 IEEE International Conference on Power
+  Electronics, Computer Applications (ICPECA)}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/icpeca51329.2021.9362711} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Yee%
-}{%
-Yee%
-}{%
-{\protect \APACyear {2000}}%
+Zoogman%
+\ \protect \BOthers {.}}{%
+Zoogman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
 }]{%
-yee:2000:SSA}
+zoogman_2017}
 \APACinsertmetastar {%
-yee:2000:SSA}%
+zoogman_2017}%
 \begin{APACrefauthors}%
-Yee, Y\BPBI L\BPBI H.%
+Zoogman, P.%
+, Liu, X.%
+, Suleiman, R.%
+, Pennington, W.%
+, Flittner, D.%
+, Al-Saadi, J.%
+\BDBL {}et al.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYear{2000}.
-\unskip\
+\APACrefYearMonthDay{2017}{}{}.
 \newblock
-\APACrefbtitle {Spatiotemporal sensistivity and visual attention for efficient
-  rendering of dynamic environments} {Spatiotemporal sensistivity and visual
-  attention for efficient rendering of dynamic environments}\
-  \APACtypeAddressSchool {\BUMTh}{}{}.
-\unskip\
+{\BBOQ}\APACrefatitle {Tropospheric Emissions: Monitoring of pollution (tempo)}
+  {Tropospheric emissions: Monitoring of pollution (tempo)}.{\BBCQ}
 \newblock
-\APACaddressSchool {}{Cornell University}.
+\APACjournalVolNumPages{Journal of Quantitative Spectroscopy and Radiative
+  Transfer}{186}{}{17–39}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.jqsrt.2016.05.008} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

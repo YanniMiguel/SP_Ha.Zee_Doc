@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {2.4.2}Advantages of YOLOv5}{9}{}%
 \contentsline {section}{\numberline {2.5}Vehicle Recognition/Identification Applications}{10}{}%
 \contentsline {section}{\numberline {2.6}Vehicle Emission Calculator Applications}{11}{}%
-\contentsline {section}{\numberline {2.7}Summary}{12}{}%
+\contentsline {section}{\numberline {2.7}Summary}{11}{}%
 \contentsline {chapter}{\numberline {3}Research Methodology}{13}{}%
 \contentsline {section}{\numberline {3.1}Technologies Used}{13}{}%
 \contentsline {section}{\numberline {3.2}Research Activities}{13}{}%
@@ -26,6 +26,4 @@
 \contentsline {section}{\numberline {3.3}Model Applictation}{15}{}%
 \contentsline {section}{\numberline {3.4}Calendar of Activities}{15}{}%
 \contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{16}{}%
-\contentsline {chapter}{\numberline {A}Appendix}{17}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{18}{}%
-\contentsline {chapter}{References}{19}{}%
+\contentsline {chapter}{References}{17}{}%
