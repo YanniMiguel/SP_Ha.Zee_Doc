@@ -4,86 +4,38 @@
 
 \section{Overview of the Current State of Technology}
 \label{sec:overview}
+The Department of Environment and Natural Resources (DENR) expressed in their website that monitoring air quality is essential in reducing air pollution and they plan to protect the environment and public health by strengthening their air quality monitoring systems \cite{DENR2020}.
 
-This section gives the reader an overview of the specific technology or field in the international or
-local setting. 
-The information regarding the technology or field should be contemporary and not based on outdated sources. 
-Discussion must not be too technical or too detailed.
-   
-\textcolor{red}{This section ends with a discussion on the problem/s faced by or that still exist in the specific
-technology or field (e.g., limitations of existing software or algorithms). 
-The problem statement would lead to the research objectives.}
+An example of air quality monitoring system that the DENR uses is the Differential Optical Absorption Spectroscopy abbreviated as DOAS. \cite{DENR_ND}. DOAS captures light that passes through a medium (the medium in this case is the atmosphere) to measure different wavelengths that were absorbed by different gasses. This method can accurately measure trace gasses absorption and it is simpler and less expensive to operate. DOAS, however, is greatly affected by turbulence in the atmosphere \cite{PlattEtAl2008}. DENR also has Particulate matter stations that records PM 2.5 and PM 10. \cite{DENR_ND}
 
+DOAS equipments need frequent maintenance to be able to operate normally. In a news report by \cite{enano_subingsubing_2019} regarding air pollution at EDSA it was stated that the maintenance of these equipements requires “hundreds of thousands of pesos”.
 
-It is   easy to include a figure in JPG or PNG format as shown in the  following example.  
-Make sure that you explain what the figure is all about, and that you refer to your figure.  
-For example, \figref{fig:disneystock} shows a graph of the performance of Disney stock from the 1980s to 2012.
+Currently, The way to access the data from the AQMS stations is through the website (https://air.emb.gov.ph/ambient-air-quality-monitoring/) and the play store application.
+
   
 %--- the following example shows how to include a figure in PNG format
 \begin{figure}[t]                %-- use [t] to place figure at top, [b] to place at the bottom, [h] for here
    \centering                    %-- use this to center the figure
-   \includegraphics{DisneyChart.png}      %-- include image file named as "disneychart.png" 
-   \caption{This is the figure's caption -- Disney stock chart.
-   	Captions should fully describe the figure in a concise manner  such that there is not need to refer to the text when figuring out the graphic.}
-    \label{fig:disneystock}
+   \includegraphics[width=120mm,scale=1.5]{PAQIApp.jpg}      %-- include image file named as "disneychart.png" 
+   \caption{Screen capture of the mobile application of the Philippines Air Quality Index. Photo taken from https://air.emb.gov.ph/ambient-air-quality-monitoring/ 
+}
+    \label{fig:PAQIApp}
 \end{figure}
 
 
-Some notes on citing references.   
-When using APA format, the author-date method of citation is  followed.   
-This means that the author's last name and the year of publication for the source should  appear in the text, and a complete reference should appear in the reference list.
+In the mobile application disclaimer it is stated that the system audits are irregular and all data are subject to quality Assurance and quality control. This means that the end user may not get the accurate data that they expect when using the application. Moreover, monitoring stations are not online 24/7 which makes the data much less available.
 
-% Examples:
-%     	Smith (1970) compared reaction times . . .
-%     	In a recent study of reaction times (Smith, 1970), . . .   
-%     	In 1970, Smith compared reaction times . . .
-%	    Smith, et al., (1970) compared reaction times . . .
-%     	In a recent study of reaction times (Smith, et al., 1970), . .
-%     	In 1970, Smith, et al., compared reaction times . . .
-
-Here are some examples on how to do the referencing (note author's name and years are different from commented examples).  
-For APA citation details, refer to \url{http://www.ctan.org/tex-archive/biblio/bibtex/contrib/apacite/}. 
-
-\begin{itemize}
- \item \citeA{kartch:2000:ERA} compared reaction times...
- \item In a recent study of reaction times \cite{kartch:2000:ERA}...
- \item In \citeyearNP{kartch:2000:ERA}, \citeauthor{kartch:2000:ERA} compared reaction times...
- \item \shortciteA{fedkiw:2001:VSO} compared reaction times... 
- \item In a recent study of reaction times \cite{fedkiw:2001:VSO}...
- \item In \citeyearNP{fedkiw:2001:VSO}, \shortciteauthor{fedkiw:2001:VSO}, compared reaction times...
-\end{itemize}
-
-The following are references from journal articles \cite{Park:2006:DSI, Pellacini:2005:LAH, sako:2001:SSB}.
- Here's an MS thesis document \cite{yee:2000:SSA}, and this is from PhD dissertation \cite{kartch:2000:ERA}. 
- For a book, reference is given as  \cite{parke:1996:CFA}. 
- Proceedings from a conference samples are \cite{Jobs95, fedkiw:2001:VSO, levoy:2000:TDM}.  
- The sample bibliography file named \textbf{myreferences.bib} is from the SIGGRAPH \LaTeX{}  template.  
- You can use a text editor to view the contents of the bib file.  
- It is your task to create your own bibliography file.  
- For those who downloaded papers from ACM or IEEE sites, there is a BibTeX link that you can click; thereafter, you just simply need to copy and paste the BibTeX entry into your own bibliography file.
-
-The following shows how to include a program source code (or algorithm).  
-The verbatim environment, as the name suggests, outputs text (including white spaces) as is...
-
-\begin{verbatim}
-               #include <stdio.h>
-               main()
-               {
-                    printf("Hello world!\n");
-               }
-\end{verbatim}
 
 \section{Problem Statement}
-\textcolor{red}{DO NOT FORGET to write the statement of the research problem here, i.e., before the Research Objectives.}
+	Air pollution has become a global problem over the years. As stated by \cite{Akimoto2004}, the availability of the CO2 concentrations on the Measurement of Air Pollution from Satellite (MAPS) instrument in 1981 shows high concentrations of the greenhouse gas over tropical Asia, Africa, and South America. Not only does this date provide evidence that this has become an international issue, it also shows how fossil fuel combustion can have an impact on air quality. 
 
-A problem statement is your research problem written explicitly.  
-The problem statement should do four things: 
-\begin{enumerate}
-	\item Specify and describe the problem (with appropriate citations) 
-	\item  Provide evidence of the problem’s existence  
-	\item Explain the consequences of NOT solving the problem  
-	\item 	Identify what is not known about the problem that should be known.
-\end{enumerate}
+The Philippines, a country located in tropical Asia, is not devoid of these issues. An article by \cite{abano_2019} states that a 2018 study by the World Health Organization reports the Philippines has ranked third among the countries with air pollution related deaths. These deaths are tied to harmful particles entering a person’s lungs, which can lead to multiple different ailments and diseases such as: heart disease, lung cancer, and respiratory infections, to name a few.
+
+Air pollution can come from different sources, whether it be from stationary constructs like factories or mobile sources such as cars. \cite{EMB_2015}  An air quality status report by the Department of Environment and Natural Resources (2015) shows that 65\% of the air pollutants come from these mobile sources. This worsened as the EMB’s official site \cite{EMB_2018} states that based on the Emissions Inventory of 2018, the pollutant contribution of mobile sources has increased to  74\%. In places where traffic is congested could be a huge contributing factor to vehicular emissions. \cite{vergel_yai2000} states that the congestion in the roads of Metro Manila contributes to the worsening air quality, especially in the vicinity of the road environment.
+
+In the country’s attempt to mitigate the atmospheric issues, the Philippine Clean Air Act of 1999 (Republic Act No. 8749) was passed. \cite{FAO} It entails the resolution of creating a national program of air pollution management, mainly focusing on pollution prevention. Two decades later and the country still sees increasing pollutants in the air and does not show signs of the improvement that was planned.
+
+In addition to creating air pollution management programs, the Philippine Clean Air Act also aimed to utilize mass media communication in order to create awareness and active participation in air quality planning and monitoring. With the aforementioned said, a system that could satisfy that goal can be created with the newer technologies that were not present in the decades prior. Thus creating Hazy, a system that can gather information from one of the biggest contributors of air pollution and provide an estimate to emissions produced, can provide solutions to these problems. 
 
 
 \section{Research Objectives}
@@ -92,8 +44,9 @@ The problem statement should do four things:
 \subsection{General Objective}
 \label{sec:generalobjective}
 
-This subsection states the over--all goal that must be achieved to answer the problem.
-Address the following: Given your research challenge or opportunity, how do you intend  to solve it? What is the output of your research?
+
+The general objective of the study is to develop an application that calculates an area’s average amount of Carbon Dioxide emission through the use of a vehicle detection system. This system will identify the vehicles from a live camera feed, along with their makes and models. The system will integrate the database of CO2 emissions the vehicles, which then the average will be calculated to be displayed on the application for the user to see.
+
 
 
 \subsection{Specific Objectives}
@@ -102,13 +55,7 @@ Address the following: Given your research challenge or opportunity, how do you 
 %
 %  \begin{comment} ... \end{comment} is used for multiple lines of comment
 %
-
-This subsection is an elaboration of the general objective.  
-It states the specific steps that must be undertaken to accomplish the general objective.  
-These objectives must be \textbf{S}pecific, \textbf{M}easurable, \textbf{A}ttainable, \textbf{R}ealistic, \textbf{T}ime-bounded.  
-A specific objective start with ``to $<$verb$>$'' for example: to design/survey/review/analyze.
-
-Studying a particular programming language or development tool (e.g., to study Windows/Object-Oriented/Graphics/C++ programming) to  accomplish the general objective is inherent in all thesis and, therefore, must not be included here.
+This study specifically aims to:
 
 
 \begin{comment}
@@ -163,17 +110,18 @@ Specific Objective:
 %
 
 \begin{enumerate}
-   \item To review related literature, compare and contrast existing algorithms (on what problem?);
-   \item To develop a new algorithm (for what purpose?)
-   \item To analyze the algorithm (based on what criteria?)
+   
+   \item To study YOLOv5 and its components to develop the application
+   \item To implement real-time vehicle detection that can be used on a live camera feed
+   \item To integrate a database of vehicular CO2 emissions so the application can calculate the overall emission of an area based on the vehicles' average emission.
+
 \end{enumerate}
 
 
 \section{Scope and Limitations of the Research}
 \label{sec:scopelimitations}
+This application mainly focuses on the air pollution caused by traffic in the Philippines, where the researchers reside as of writing the paper. Thus, it will only be set up and used on the vehicles that travel within the country. The researchers will be limited to the amount of vehicles that are present within the database that will be used for the application. Any other information that is not present in the database will not be included in the application. Among the components of air pollutants, this study is limited to using Carbon Dioxide as the emission to be identified from the vehicles. Furthermore, This study will be utilizing the YOLOv5 object identification framework  and is thus limited to the features of that version. Any other features and upgrades that are present in future versions of the framework will not be included in the study.
 
-This section discusses the boundaries (with respect to the objectives) of the research and the constraints within 
-which the research will be developed.
 
 \begin{comment}
 
@@ -194,30 +142,13 @@ Each paragraph also includes a description of the scope/limitation of your study
 \section{Significance of the Research}
 \label{sec:significance}
 
-This section explains why research must be done in this area.
- It rationalizes the objective of the research with that of the stated problem. 
- Avoid including sentences such as ``This research will be beneficial to the proponent/department/college'' as this is already an inherent requirement of all BSCS majors.  Focus on the research's contribution to the Computer Science field.
+The main objective of this study is to create an application that helps its users identify the pollution level of a traffic congested area through a live video feed over the road. Furthermore, this benefits users such as those who travel frequently by the road whether it be: commuters, joggers, or workers, in which they have the opportunity to check said road’s emission levels. In such a case where levels are higher than expected, users can take premeditated measures to avoid the intake of greenhouse gasses. Moreover, this study will be of significance to individuals to immuno-compromised individuals that should steer clear of areas that can cause a negative impact on their health. 
 
-The following are guide questions that may help your formulate the significance of your research. 
+For the environment sector, this study can help contribute to the air pollution awareness in the country, in which such data can be utilized when creating future plans and protocols to combat the rising concern for the country’s air quality.
+
+Lastly, as interest in the computer vision field of vehicle identification and recognition systems increases, this study can contribute to future research on said field. The study can be of help to future researchers on the topics of: computer vision and tracking vehicular greenhouse gasses emissions.
 
 
-%
-% IPR acknowledgement: the following list of items are from Ethel Ong's slides on Significance of the Research
-%
-\begin{itemize}
-\item  What is the relevance of your work to the computer science community? 
-
-\begin{itemize} 
-\item What will be your technical contributions, in terms of algorithms, or approaches, or new domain? 
-\item What is your value-added compared to existing systems? 
-\end{itemize}
-
-\item What will be your contributions to society in general? 
-    \begin{itemize}
-      \item Who will benefit from your system? 
-      \item Who are your target users and how will this system benefit them? 
-   \end{itemize}
-\end{itemize}
 
 \begin{comment}
 If applicable, describe possible commercialization and/or innovation in your research.

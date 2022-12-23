@@ -1,28 +1,43 @@
-%   Filename    : chapter_4.tex 
+%   Filename    : chapter_3.tex 
 \chapter{Research Methodology}
 This chapter lists and discusses the specific steps and activities that will be performed  to accomplish the project. 
 The discussion covers the activities from pre-proposal to Final SP Writing.
 
-\section{Research Activities}
-Research activities include inquiry, survey, research, brainstorming, canvassing, consultation, review, interview, observe, experiment, design, test, document, etc.  
-Be sure that for each method, process, or algorithm used, there is a justification why that method was chosen.
-The methodology also includes the following information:
+\section{Technologies Used}
+The technologies that will be utilized for this project are the following in the following subsections
 
-\begin{itemize}
-   \item who is responsible for the task
-   \item the resource person to be contacted
-   \item what will be done
-   \item when and how long will the activity be done
-   \item where will it be done
-   \item why should be activity be done
-\end{itemize}
+\subsection{Roboflow}
+Roboflow offers a suite  of browser applications to preprocess and preparation of the data for computer vision and machine learning. Roboflow annotation will be used  to manually set bounding boxes for model training and image augmentation for the manipulation of images. 
+
+\subsection{Jupyter Notebook using Google Colab and Python}
+Jupyter Notebook and Python will be used for training and fitting the data. Jupyter notebook, using google colab,  offers free GPU with CUDA for processing, and Python, the programming language, offers essential libraries for machine learning.
+
+\subsection{YOLOv5}
+ YOLOV5 is an object detection algorithm which simplifies the workflow of training the dataset. It will serve as the object detection algorithm that will be used for training the dataset and counting vehicles in a video or live footage in this project.
+
+\section{Research Activities}
+To explore YOLOv5 two models will be used. One model is a pre-trained model that comes with YOLOv5 and a custom model trained with a dataset taken from Kaggle. YOLOv5 has options to download and use pre-trained models on the YOLOv5 GitHub page A(https://github.com/ultralytics/yolov5). This model will serve as a basis to benchmark the performance of the custom data.
+
+\subsection {Data Gathering}
+This study plans to identify an area’s pollution level through calculating average of the emissions coming from the cars on the road. In doing so, data of the vehicles, its identification, and its emission rates are needed for the study. Through the use of a camera, a live feed of the vehicles in traffic can be recorded to gather the data of cars in traffic. Image samples of the vehicles (Cars, Motorcycles, and Trucks) will be taken from the Kaggle dataset, Traffic Images Of Vehicles \cite{DVN/POREXF_2020}. This can be utilized in training and testing for the software to recognize the vehicles on the video feed. The vehicle emissions will be taken from an average CO2 emissions of vehicles (four-wheelers and motorcycles) from a dataset provided by Gov.Uk (2020). 
+
+\subsection {Preprocessing}
+
+	Preprocessing the data includes defining the bounding box of the vehicles in the training data and augmenting the images to make the model perform better. Roboflow has an annotation tool that can be used for annotating bounding boxes that will be then used for training. Augmentation of the images will be done by the YOLOv5 algorithm automatically given that the Albumentation library is installed. Augmentation can be used for transforming the images allowing the model to diversify its training data set making it perform better. 
+
+
+\subsection {Training and Performance Testing}
+
+The training data will be separated into classes cars, motorcycles, and trucks. These classes will be the bases of classification for the training.  For performance testing, there are visualization tools available to visualize the performance of the model. In this project, Tensorboard will be used since it is already available in python and can be rendered using Jupyter notebook. The training time will be based on the performance parameters (Precision and Recall being the most important). If little to no improvement is being done by subsequent iterations on the performance parameters the training will be interrupted. To benchmark the performance of the custom data it will be compared against the pre-trained weights available for YOLOv5. 
+
+\section {Model Applictation}
+The program detect.py will be run to detect objects from an external device or video file using the trained model. When detect.py is run it will start to list the objects it detects. An average emission of each vehicle type will be used.
+
 
 
 \section{Calendar of Activities}
 
-A Gantt chart showing the schedule of the activities should be included as a table. For example:
-
-Table \ref{tab:timetableactivities} shows a Gantt chart of the activities.  Each bullet represents approximately
+Table \ref{tab:timetableactivities} shows a Gantt chart of the activities for the development of Hazy.  Each bullet represents approximately
 one week worth of activity.
 
 %
@@ -49,14 +64,15 @@ one week worth of activity.
 \centering
 \caption{Timetable of Activities} \vspace{0.25em}
 \begin{tabular}{|p{2in}|c|c|c|c|c|c|c|c|} \hline
-\centering Activities (2009) & Jan   & Feb & Mar & Apr & May & Jun & Jul \\ \hline
-Study on Prerequisite Knowledge      &   &  & ~~~\weektwo & \weekfour &  &  &  \\ \hline
-Review of Existing Racing Strategies & ~~~\weektwo  & \weekfour & \weekfour & \weekfour &  &  &  \\ \hline
-Identification of Best Features      &   &  &  & \weekfour & \weektwo~~~ &  &  \\ \hline
-Development of Racing Strategies     &   &  &  & ~~~\weektwo & \weekfour & \weektwo~~~ &  \\ \hline
-Simulation of Racing Strategies      &   &  &  & ~~~\weektwo & \weekfour & \weekthree~~ &  \\ \hline
-Analysis and Interpretation of the Results &   &  &  &  & \weekfour & \weekfour & \weekone~~~~~ \\ \hline
-Documentation & ~~~\weektwo  & \weekfour & \weekfour & \weekfour & \weekfour & \weekfour & \weektwo~~~ \\ \hline
+\centering Activities  & Sept  & Oct & Nov & Dec & Jan & Fab & Mar \\ \hline
+Finding and Choosing Final Topic      & ~~~\weektwo &  &  &  &  &  &  \\ \hline
+Review of Related Literature &   & \weekfour & \weekfour &  &  &  &  \\ \hline
+Identifying Problem Statement     &  ~~~\weektwo &  \weekone~~~  &  & &  &  &  \\ \hline
+Formation of Possible Solution    &   & ~~~\weektwo  &  \weekone~~~ &  & & &  \\ \hline
+Constructing the Methodology     &   &  &   ~~~\weektwo & \weekthree ~~ & &  &  \\ \hline
+Testing     &   &  &  & \weekthree ~~ & &  &  \\ \hline
+Interpretation of Results     &   &  &  & \weekthree ~~ & &  &  \\ \hline
+Documentation & ~~~\weektwo  & \weekfour & \weekfour &\weekone ~~& &&~~~ \\ \hline
 \end{tabular}
 \label{tab:timetableactivities}
 \end{table}
