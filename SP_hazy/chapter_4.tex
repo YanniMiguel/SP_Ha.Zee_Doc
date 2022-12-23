@@ -38,7 +38,7 @@ This prototype training will only train for 100 epochs.
 
 \section{Results}
 
-Figure \ref{fig:protores} shows the statistics of how the data set performed during training. Notice that as the training progress the loss values drops. This is the desired behavior as it shows that the training is making less mistakes as training continues. Although, This will improve with further training. 
+Figure \ref{fig:protores} shows the statistics of how the data set performed during training. Notice that as the training progress the loss values drops. This is the desired behavior as it shows that the training is making less mistakes as training continues.
 
 \begin{figure}[h!]
 	\includegraphics[width=\linewidth]{protoresults.png}
@@ -63,5 +63,9 @@ The trained weights obtained by training was used in prerecorded videos to deter
 	\caption{Object Detection Prototype used for Traffic recorded in bird's eye view}
 	\label{fig:protoBirdsEye}
 \end{figure}
+
+Figure \ref{fig:protoStreetView} and \ref{fig:protoBirdsEye} are screenshots of a video recording taken at Diversion Road, Madurriao, Iloilo City, Iloilo, Philippines. The files were used as inputs for Detect.py that comes with the YOLOv5 download and is used for interference having different input options and in this case are video files.
+
+The trained model correctly identifies several vehicles on the road as shown enclosed in bounding boxes with the class name and confidence score above them.
 
 
