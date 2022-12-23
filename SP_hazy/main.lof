@@ -3,3 +3,6 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Statistics of the prototype training}}{17}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Object Detection Prototype used for Traffic recorded in street view}}{18}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Object Detection Prototype used for Traffic recorded in bird's eye view}}{18}{}%

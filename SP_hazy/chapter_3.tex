@@ -4,13 +4,22 @@ This chapter lists and discusses the specific steps and activities that will be 
 The discussion covers the activities from pre-proposal to Final SP Writing.
 
 \section{Technologies Used}
-The technologies that will be utilized for this project are the following: First, Roboflow for the preprocessing and preparation of the data. Roboflow offers tools such as annotation to manually set bounding boxes for model training and image augmentation for the manipulation of images. Second, Jupyter Notebook and Python for training and fitting the data. Jupyter notebook, using google colab, gives flexibility for collaboration,  google collab offers free GPU with CUDA for processing, and Python, the programming language, offers essential libraries for machine learning. Last, YOLOv5 serves as the object detection algorithm that will be used for counting vehicles.
+The technologies that will be utilized for this project are the following in the following subsections
+
+\subsection{Roboflow}
+Roboflow offers a suite  of browser applications to preprocess and preparation of the data for computer vision and machine learning. Roboflow annotation will be used  to manually set bounding boxes for model training and image augmentation for the manipulation of images. 
+
+\subsection{Jupyter Notebook using Google Colab and Python}
+Jupyter Notebook and Python will be used for training and fitting the data. Jupyter notebook, using google colab,  offers free GPU with CUDA for processing, and Python, the programming language, offers essential libraries for machine learning.
+
+\subsection{YOLOv5}
+ YOLOV5 is an object detection algorithm which simplifies the workflow of training the dataset. It will serve as the object detection algorithm that will be used for training the dataset and counting vehicles in a video or live footage in this project.
 
 \section{Research Activities}
 To explore YOLOv5 two models will be used. One model is a pre-trained model that comes with YOLOv5 and a custom model trained with a dataset taken from Kaggle. YOLOv5 has options to download and use pre-trained models on the YOLOv5 GitHub page A(https://github.com/ultralytics/yolov5). This model will serve as a basis to benchmark the performance of the custom data.
 
 \subsection {Data Gathering}
-This study plans to identify an area’s pollution level through calculating average of the emissions coming from the cars on the road. In doing so, data of the vehicles, its identification, and its emission rates are needed for the study. Through the use of a camera, a live feed of the vehicles in traffic can be recorded to gather the data of cars in traffic. Image samples of the vehicles (Cars, Motorcycles, and Trucks) will be taken from the Kaggle dataset: Vehicle Images Dataset by Lyen Seotanto (2020). This can be utilized in training and testing for the software to recognize the vehicles on the video feed. For the identification , the website Kaggle will also provide the datasets via those publicly uploaded by their users. The car identification data is titled [INSERT DATABASE HERE] . The vehicle emissions will be taken from an average CO2 emissions of vehicles (four-wheelers and motorcycles) from a dataset provided by Gov.Uk (2020). 
+This study plans to identify an area’s pollution level through calculating average of the emissions coming from the cars on the road. In doing so, data of the vehicles, its identification, and its emission rates are needed for the study. Through the use of a camera, a live feed of the vehicles in traffic can be recorded to gather the data of cars in traffic. Image samples of the vehicles (Cars, Motorcycles, and Trucks) will be taken from the Kaggle dataset, Traffic Images Of Vehicles \cite{DVN/POREXF_2020}. This can be utilized in training and testing for the software to recognize the vehicles on the video feed. The vehicle emissions will be taken from an average CO2 emissions of vehicles (four-wheelers and motorcycles) from a dataset provided by Gov.Uk (2020). 
 
 \subsection {Preprocessing}
 
@@ -22,7 +31,8 @@ This study plans to identify an area’s pollution level through calculating ave
 The training data will be separated into classes cars, motorcycles, and trucks. These classes will be the bases of classification for the training.  For performance testing, there are visualization tools available to visualize the performance of the model. In this project, Tensorboard will be used since it is already available in python and can be rendered using Jupyter notebook. The training time will be based on the performance parameters (Precision and Recall being the most important). If little to no improvement is being done by subsequent iterations on the performance parameters the training will be interrupted. To benchmark the performance of the custom data it will be compared against the pre-trained weights available for YOLOv5. 
 
 \section {Model Applictation}
-The program detect.py will be run to detect objects from an external device or video file using the trained model. When detect.py is run it will start to list the objects it detects. An average emission of each vehicle type will be used. [INSERT AVERAGES HERE]. The total emission from the area will be calculated using these values.
+The program detect.py will be run to detect objects from an external device or video file using the trained model. When detect.py is run it will start to list the objects it detects. An average emission of each vehicle type will be used.
+
 
 
 \section{Calendar of Activities}
@@ -60,6 +70,8 @@ Review of Related Literature &   & \weekfour & \weekfour &  &  &  &  \\ \hline
 Identifying Problem Statement     &  ~~~\weektwo &  \weekone~~~  &  & &  &  &  \\ \hline
 Formation of Possible Solution    &   & ~~~\weektwo  &  \weekone~~~ &  & & &  \\ \hline
 Constructing the Methodology     &   &  &   ~~~\weektwo & \weekthree ~~ & &  &  \\ \hline
+Testing     &   &  &  & \weekthree ~~ & &  &  \\ \hline
+Interpretation of Results     &   &  &  & \weekthree ~~ & &  &  \\ \hline
 Documentation & ~~~\weektwo  & \weekfour & \weekfour &\weekone ~~& &&~~~ \\ \hline
 \end{tabular}
 \label{tab:timetableactivities}
