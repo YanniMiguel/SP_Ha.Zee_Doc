@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.22)  23 DEC 2022 19:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.22)  9 JAN 2023 21:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -234,11 +234,422 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ))
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/chemformula\chemformula
+.sty
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen161
+\pgfutil@tempdimb=\dimen162
+
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common-lists.tex))
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box57
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+filtered.code.tex
+\pgfkeys@tmptoks=\toks30
+))
+\pgf@x=\dimen163
+\pgf@y=\dimen164
+\pgf@xa=\dimen165
+\pgf@ya=\dimen166
+\pgf@xb=\dimen167
+\pgf@yb=\dimen168
+\pgf@xc=\dimen169
+\pgf@yc=\dimen170
+\pgf@xd=\dimen171
+\pgf@yd=\dimen172
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count287
+\c@pgf@countb=\count288
+\c@pgf@countc=\count289
+\c@pgf@countd=\count290
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+\pgf@sys@id@count=\count291
+
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count292
+\pgfsyssoftpath@bigbuffer@items=\count293
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen173
+\pgfmath@count=\count294
+\pgfmath@box=\box58
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)))
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count295
+))
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen174
+\pgf@picmaxx=\dimen175
+\pgf@picminy=\dimen176
+\pgf@picmaxy=\dimen177
+\pgf@pathminx=\dimen178
+\pgf@pathmaxx=\dimen179
+\pgf@pathminy=\dimen180
+\pgf@pathmaxy=\dimen181
+\pgf@xx=\dimen182
+\pgf@xy=\dimen183
+\pgf@yx=\dimen184
+\pgf@yy=\dimen185
+\pgf@zx=\dimen186
+\pgf@zy=\dimen187
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen188
+\pgf@path@lasty=\dimen189
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen190
+\pgf@shorten@start@additional=\dimen191
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count296
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen192
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen193
+\pgf@pt@y=\dimen194
+\pgf@pt@temp=\dimen195
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen196
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen197
+\pgf@sys@shading@range@num=\count297
+\pgf@shadingcount=\count298
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box62
+))
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box63
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen198
+\pgf@nodesepend=\dimen199
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex)
+\pgffor@iter=\dimen256
+\pgffor@skip=\dimen257
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
+))
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count299
+\pgfplotmarksize=\dimen258
+)
+\tikz@lastx=\dimen259
+\tikz@lasty=\dimen260
+\tikz@lastxsaved=\dimen261
+\tikz@lastysaved=\dimen262
+\tikz@lastmovetox=\dimen263
+\tikz@lastmovetoy=\dimen264
+\tikzleveldistance=\dimen265
+\tikzsiblingdistance=\dimen266
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count300
+\tikznumberofchildren=\count301
+\tikznumberofcurrentchild=\count302
+\tikz@fig@count=\count303
+
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count304
+\pgfmatrixcurrentcolumn=\count305
+\pgf@matrix@numberofcolumns=\count306
+)
+\tikz@expandcount=\count307
+
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfrac\xfrac.
+sty (C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-07-04 L3 programming layer (loader) 
+
 (C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count287
-\l__pdf_internal_box=\box57
+\l__color_backend_stack_int=\count308
+\l__pdf_internal_box=\box68
+))
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
+Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2022-06-22 L3 Experimental document command parser
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xtemplate\xt
+emplate.sty
+Package: xtemplate 2022-06-22 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen267
+\l__xtemplate_tmp_int=\count309
+\l__xtemplate_tmp_muskip=\muskip18
+\l__xtemplate_tmp_skip=\skip60
+)
+Package: xfrac 2022-06-22 L3 Experimental split-level fractions
+\l__xfrac_slash_box=\box69
+\l__xfrac_tmp_box=\box70
+\l__xfrac_denominator_bot_sep_dim=\dimen268
+\l__xfrac_numerator_bot_sep_dim=\dimen269
+\l__xfrac_numerator_top_sep_dim=\dimen270
+\l__xfrac_slash_left_sep_dim=\dimen271
+\l__xfrac_slash_right_sep_dim=\dimen272
+\l__xfrac_slash_left_muskip=\muskip19
+\l__xfrac_slash_right_muskip=\muskip20
+
+Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
+(xtemplate)             line 80.
+
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/units\nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip61
+\L@UnitsRaiseTextstyle=\skip62
+\L@UnitsRaiseScriptstyle=\skip63
+)
+(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowinset=\dimen273
+\pgfarrowlength=\dimen274
+\pgfarrowwidth=\dimen275
+\pgfarrowlinewidth=\dimen276
+)
+Package: chemformula 2022/01/23 v4.17 typeset chemical compounds and reactions 
+(CN)
+\l__chemformula_tmpa_dim=\dimen277
+\l__chemformula_tmpb_dim=\dimen278
+\l__chemformula_tmpc_dim=\dimen279
+\l__chemformula_tmpa_int=\count310
+\l__chemformula_tmpb_int=\count311
+\l__chemformula_tmpc_int=\count312
+\l__chemformula_tmpa_box=\box71
+\l__chemformula_tmpb_box=\box72
+\l__chemformula_arrow_length_dim=\dimen280
+\l__chemformula_arrow_label_height_dim=\dimen281
+\l__chemformula_arrow_label_offset_dim=\dimen282
+\l__chemformula_arrow_minimum_length_dim=\dimen283
+\l__chemformula_arrow_shortage_dim=\dimen284
+\l__chemformula_arrow_offset_dim=\dimen285
+\l__chemformula_arrow_yshift_dim=\dimen286
+\l__chemformula_radical_radius_dim=\dimen287
+\l__chemformula_radical_hshift_dim=\dimen288
+\l__chemformula_radical_vshift_dim=\dimen289
+\l__chemformula_radical_space_dim=\dimen290
+\l__chemformula_arrow_head_dim=\dimen291
+\l__chemformula_name_dim=\dimen292
+\l__chemformula_adduct_space_dim=\dimen293
+\l__chemformula_charge_shift_dim=\dimen294
+\l__chemformula_subscript_shift_dim=\dimen295
+\l__chemformula_superscript_shift_dim=\dimen296
+\l__chemformula_subscript_dim=\dimen297
+\l__chemformula_superscript_dim=\dimen298
+\l__chemformula_bond_dim=\dimen299
+\l__chemformula_bond_space_dim=\dimen300
+\l__chemformula_elspec_pair_distance_dim=\dimen301
+\l__chemformula_elspec_pair_line_length_dim=\dimen302
+\l__chemformula_elspec_pair_width_dim=\dimen303
+\l__chemformula_kroegervink_positive_radius_dim=\dimen304
+\l__chemformula_kroegervink_positive_hshift_dim=\dimen305
+\l__chemformula_kroegervink_positive_vshift_dim=\dimen306
+\l__chemformula_kroegervink_positive_space_dim=\dimen307
+\l__chemformula_stoich_space_skip=\skip64
+\l__chemformula_math_space_skip=\skip65
+\l__chemformula_additions_symbol_space_skip=\skip66
+\l__chemformula_count_tokens_int=\count313
+\g__chemformula_lewis_int=\count314
+\l__chemformula_arrow_arg_i_box=\box73
+\l__chemformula_arrow_arg_ii_box=\box74
+\l__chemformula_superscript_box=\box75
+\l__chemformula_subscript_box=\box76
+\l__chemformula_plus_space_skip=\skip67
+\l__chemformula_minus_space_skip=\skip68
 )
 
 LaTeX Warning: Unused global option(s):
@@ -266,17 +677,17 @@ LaTeX Font Info:    ... okay on input line 7.
 (C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count288
-\scratchdimen=\dimen161
-\scratchbox=\box58
-\nofMPsegments=\count289
-\nofMParguments=\count290
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count291
-\MPscratchDim=\dimen162
-\MPnumerator=\count292
-\makeMPintoPDFobject=\count293
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count315
+\scratchdimen=\dimen308
+\scratchbox=\box77
+\nofMPsegments=\count316
+\nofMParguments=\count317
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count318
+\MPscratchDim=\dimen309
+\MPnumerator=\count319
+\makeMPintoPDFobject=\count320
+\everyMPtoPDFconversion=\toks40
 )
 (C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -298,8 +709,8 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count294
-\c@maskedRefs=\count295
+\c@lstlisting=\count321
+\c@maskedRefs=\count322
 
 (C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/apacite\english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
@@ -337,18 +748,18 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ])
-\tf@toc=\write3
-\openout3 = `main.toc'.
+\tf@toc=\write4
+\openout4 = `main.toc'.
 
  [3] (main.lof)
-\tf@lof=\write4
-\openout4 = `main.lof'.
+\tf@lof=\write5
+\openout5 = `main.lof'.
 
  [4
 
 ] (main.lot)
-\tf@lot=\write5
-\openout5 = `main.lot'.
+\tf@lot=\write6
+\openout6 = `main.lot'.
 
  [5
 
@@ -357,7 +768,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  (chapter_1.tex
 Chapter 1.
-<figures//PAQIApp.jpg, id=23, 537.50812pt x 373.395pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+<figures//PAQIApp.jpg, id=26, 537.50812pt x 373.395pt>
 File: figures//PAQIApp.jpg Graphic file (type jpg)
 <use figures//PAQIApp.jpg>
 Package pdftex.def Info: figures//PAQIApp.jpg  used on input line 19.
@@ -408,12 +824,12 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
 
 
 ]
-<figures//protoresults.png, id=77, 867.24pt x 433.62pt>
+<figures//protoresults.png, id=81, 867.24pt x 433.62pt>
 File: figures//protoresults.png Graphic file (type png)
 <use figures//protoresults.png>
 Package pdftex.def Info: figures//protoresults.png  used on input line 44.
 (pdftex.def)             Requested size: 415.55249pt x 207.77794pt.
-<figures//protoStreetView.png, id=79, 1443.14156pt x 813.0375pt>
+<figures//protoStreetView.png, id=83, 1443.14156pt x 813.0375pt>
 File: figures//protoStreetView.png Graphic file (type png)
 <use figures//protoStreetView.png>
 Package pdftex.def Info: figures//protoStreetView.png  used on input line 56.
@@ -422,7 +838,7 @@ Package pdftex.def Info: figures//protoStreetView.png  used on input line 56.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures//protoBirdsEye.png, id=80, 1443.14156pt x 813.0375pt>
+<figures//protoBirdsEye.png, id=84, 1443.14156pt x 813.0375pt>
 File: figures//protoBirdsEye.png Graphic file (type png)
 <use figures//protoBirdsEye.png>
 Package pdftex.def Info: figures//protoBirdsEye.png  used on input line 62.
@@ -528,25 +944,26 @@ Underfull \hbox (badness 1931) in paragraph at lines 670--689
 ) [21] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux
 ) (chapter_3.aux) (chapter_4.aux)) ) 
 Here is how much of TeX's memory you used:
- 6773 strings out of 478338
- 102677 string characters out of 2836700
- 601787 words of memory out of 3000000
- 25065 multiletter control sequences out of 15000+600000
+ 18491 strings out of 478338
+ 376174 string characters out of 2836700
+ 841563 words of memory out of 3000000
+ 36542 multiletter control sequences out of 15000+600000
  477986 words of font info for 61 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 77i,10n,81p,1158b,1298s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,10n,94p,1201b,1299s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\airco\AppData\Local\MiKTeX\fonts
 /pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/airco/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/airco/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/airco/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/
-airco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><
-C:/Users/airco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmt
-t10.pfb><C:/Users/airco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmtt12.pfb>
-Output written on main.pdf (27 pages, 3586037 bytes).
+airco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
+/Users/airco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti1
+2.pfb><C:/Users/airco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmtt10.pfb><C:/Users/airco/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (27 pages, 3596069 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
+ 139 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
