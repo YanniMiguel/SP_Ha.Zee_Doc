@@ -7,23 +7,23 @@ The discussion covers the activities from pre-proposal to Final SP Writing.
 The technologies that will be utilized for this project are the following in the following subsections
 
 \subsection{Roboflow}
-Roboflow offers a suite  of browser applications to preprocess and preparation of the data for computer vision and machine learning. Roboflow annotation will be used  to manually set bounding boxes for model training and image augmentation for the manipulation of images. 
+Roboflow offers a suite  of browser applications to preprocess and preparation of the data for computer vision and machine learning. Roboflow annotation will be used  to manually set bounding boxes for model training and image augmentation for the manipulation of images. \cite{roboflow}
 
 \subsection{Jupyter Notebook using Google Colab and Python}
-Jupyter Notebook and Python will be used for training and fitting the data. Jupyter notebook, using google colab,  offers free GPU with CUDA for processing, and Python, the programming language, offers essential libraries for machine learning.
+Jupyter Notebook and Python will be used for training and fitting the data. Jupyter notebook, using google colab,  offers free GPU with CUDA for processing, and Python, the programming language, offers essential libraries for machine learning. \cite{googlecolab}
 
 \subsection{YOLOv5}
  YOLOV5 is an object detection algorithm which simplifies the workflow of training the dataset. It will serve as the object detection algorithm that will be used for training the dataset and counting vehicles in a video or live footage in this project.
 
 \section{Research Activities}
-To explore YOLOv5 two models will be used. One model is a pre-trained model that comes with YOLOv5 and a custom model trained with a dataset taken from Kaggle. YOLOv5 has options to download and use pre-trained models on the YOLOv5 GitHub page A(https://github.com/ultralytics/yolov5). This model will serve as a basis to benchmark the performance of the custom data.
+To explore YOLOv5 two models will be used. One model is a pre-trained model that comes with YOLOv5 and a custom model trained with a dataset taken from Kaggle. YOLOv5 has options to download and use pre-trained models on the YOLOv5 GitHub page \cite{ultralytics}. This model will serve as a basis to benchmark the performance of the custom data.
 
 \subsection {Data Gathering}
 This study plans to identify an area’s pollution level through calculating average of the emissions coming from the cars on the road. In doing so, data of the vehicles, its identification, and its emission rates are needed for the study. Through the use of a camera, a live feed of the vehicles in traffic can be recorded to gather the data of cars in traffic. Image samples of the vehicles (Cars, Motorcycles, and Trucks) will be taken from the Kaggle dataset, Traffic Images Of Vehicles \cite{DVN/POREXF_2020}. This can be utilized in training and testing for the software to recognize the vehicles on the video feed. The vehicle emissions will be taken from an average CO2 emissions of vehicles (four-wheelers and motorcycles) from a dataset provided by Gov.Uk (2020). 
 
 \subsection {Preprocessing}
 
-	Preprocessing the data includes defining the bounding box of the vehicles in the training data and augmenting the images to make the model perform better. Roboflow has an annotation tool that can be used for annotating bounding boxes that will be then used for training. Augmentation of the images will be done by the YOLOv5 algorithm automatically given that the Albumentation library is installed. Augmentation can be used for transforming the images allowing the model to diversify its training data set making it perform better. 
+	Preprocessing the data includes defining the bounding box of the vehicles in the training data and augmenting the images to make the model perform better. Roboflow has an annotation tool that can be used for annotating bounding boxes that will be then used for training. Augmentation of the images will be done by the YOLOv5 algorithm automatically given that the Albumentation library is installed. Augmentation can be used for transforming the images allowing the model to diversify its training data set making it perform better.\cite{dilmegani} 
 
 
 \subsection {Training and Performance Testing}

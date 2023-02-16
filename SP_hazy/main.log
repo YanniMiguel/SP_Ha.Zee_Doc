@@ -1,20 +1,20 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.22)  9 JAN 2023 21:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.8)  8 FEB 2023 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./main.tex
 (main.tex
-LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-07-04>
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-02>
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
 e 4.
 
 (preamble.tex
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
-Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@chapter=\count186
@@ -25,51 +25,50 @@ File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count191
 \c@figure=\count192
 \c@table=\count193
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
-Package: pdfpages 2022/10/09 v0.5w Insert pages of external PDF documents (AM)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count194
 \calc@Bcount=\count195
-\calc@Adimen=\dimen139
-\calc@Bdimen=\dimen140
-\calc@Askip=\skip49
-\calc@Bskip=\skip50
+\calc@Adimen=\dimen141
+\calc@Bdimen=\dimen142
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count196
-\calc@Cskip=\skip51
+\calc@Cskip=\skip52
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
-\ESO@tempdima=\dimen141
-\ESO@tempdimb=\dimen142
+\ESO@tempdima=\dimen143
+\ESO@tempdimb=\dimen144
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathcolor.
-ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -79,90 +78,91 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-))
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+)) (C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
+g
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen143
-\Gin@req@width=\dimen144
+\Gin@req@height=\dimen145
+\Gin@req@width=\dimen146
 )
-\AM@pagewidth=\dimen145
-\AM@pageheight=\dimen146
-\AM@fboxrule=\dimen147
+\AM@pagewidth=\dimen147
+\AM@pageheight=\dimen148
+\AM@fboxrule=\dimen149
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
-File: pppdftex.def 2022/10/09 v0.5w Pdfpages driver for pdfTeX (AM)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count197
 \AM@pagebox=\box51
 \AM@global@opts=\toks17
 \AM@pagecnt=\count198
 \AM@toc@title=\toks18
+\AM@lof@heading=\toks19
 \c@AM@survey=\count199
 \AM@templatesizebox=\box52
-) (C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count266
 \lst@gtempboxa=\box53
-\lst@token=\toks19
+\lst@token=\toks20
 \lst@length=\count267
-\lst@currlwidth=\dimen148
+\lst@currlwidth=\dimen150
 \lst@column=\count268
 \lst@pos=\count269
-\lst@lostspace=\dimen149
-\lst@width=\dimen150
+\lst@lostspace=\dimen151
+\lst@width=\dimen152
 \lst@newlines=\count270
 \lst@lineno=\count271
-\lst@maxwidth=\dimen151
+\lst@maxwidth=\dimen153
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count272
 \lst@skipnumbers=\count273
 \lst@framebox=\box54
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/apacite\apacite.sty
+
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/apacite\apacite.sty
 Package: apacite 2013/07/21 v6.03 APA citation
 \c@BibCnt=\count274
-\bibleftmargin=\skip52
-\bibindent=\skip53
-\bibparsep=\skip54
-\bibitemsep=\skip55
-\biblabelsep=\skip56
+\bibleftmargin=\skip53
+\bibindent=\skip54
+\bibparsep=\skip55
+\bibitemsep=\skip56
+\biblabelsep=\skip57
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip57
+\@mathmargin=\skip58
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
-\ex@=\dimen152
+\@emptytoks=\toks21
+\ex@=\dimen154
 ))
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen153
+\pmbraise@=\dimen155
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count275
@@ -182,7 +182,7 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen154
+\big@size=\dimen156
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count280
@@ -195,25 +195,25 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \dotsspace@=\muskip16
 \c@parentequation=\count282
 \dspbrk@lvl=\count283
-\tag@help=\toks21
+\tag@help=\toks22
 \row@=\count284
 \column@=\count285
 \maxfields@=\count286
-\andhelp@=\toks22
-\eqnshift@=\dimen155
-\alignsep@=\dimen156
-\tagshift@=\dimen157
-\tagwidth@=\dimen158
-\totwidth@=\dimen159
-\lineht@=\dimen160
-\@envbody=\toks23
-\multlinegap=\skip58
-\multlinetaggap=\skip59
-\mathdisplay@stack=\toks24
+\andhelp@=\toks23
+\eqnshift@=\dimen157
+\alignsep@=\dimen158
+\tagshift@=\dimen159
+\tagwidth@=\dimen160
+\totwidth@=\dimen161
+\lineht@=\dimen162
+\@envbody=\toks24
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -221,306 +221,301 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks25
-\verbatim@line=\toks26
+\every@verbatim=\toks26
+\verbatim@line=\toks27
 \verbatim@in@stream=\read2
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ))
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/chemformula\chemformula
-.sty
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/chemformula\chemformula.
 sty
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
-y
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--common.tex
-\pgfutil@everybye=\toks27
-\pgfutil@tempdima=\dimen161
-\pgfutil@tempdimb=\dimen162
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.s
+ty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--common-lists.tex))
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--latex.def
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
+common.tex
+\pgfutil@everybye=\toks28
+\pgfutil@tempdima=\dimen163
+\pgfutil@tempdimb=\dimen164
+)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
+latex.def
 \pgfutil@abb=\box57
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
-code.tex
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.c
+ode.tex
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
-Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
-sty
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
-sty
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s.code.tex
-Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
-
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.s
+ty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.s
+ty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
 .code.tex
-\pgfkeys@pathtoks=\toks28
-\pgfkeys@temptoks=\toks29
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-filtered.code.tex
-\pgfkeys@tmptoks=\toks30
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
+code.tex
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
+
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysl
+ibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks31
 ))
-\pgf@x=\dimen163
-\pgf@y=\dimen164
-\pgf@xa=\dimen165
-\pgf@ya=\dimen166
-\pgf@xb=\dimen167
-\pgf@yb=\dimen168
-\pgf@xc=\dimen169
-\pgf@yc=\dimen170
-\pgf@xd=\dimen171
-\pgf@yd=\dimen172
+\pgf@x=\dimen165
+\pgf@y=\dimen166
+\pgf@xa=\dimen167
+\pgf@ya=\dimen168
+\pgf@xb=\dimen169
+\pgf@yb=\dimen170
+\pgf@xc=\dimen171
+\pgf@yc=\dimen172
+\pgf@xd=\dimen173
+\pgf@yd=\dimen174
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
 \c@pgf@counta=\count287
 \c@pgf@countb=\count288
 \c@pgf@countc=\count289
 \c@pgf@countd=\count290
-\t@pgf@toka=\toks31
-\t@pgf@tokb=\toks32
-\t@pgf@tokc=\toks33
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
 \pgf@sys@id@count=\count291
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
-fg
-File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cf
+g
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-pdftex.def
-File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-common-pdf.def
-File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-ssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+softpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count292
 \pgfsyssoftpath@bigbuffer@items=\count293
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-sprotocol.code.tex
-File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+protocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-e.code.tex
-Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
-.tex
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
-code.tex
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
-code.tex)
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
-r.code.tex
-\pgfmath@dimen=\dimen173
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
+tex
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.c
+ode.tex)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser
+.code.tex
+\pgfmath@dimen=\dimen175
 \pgfmath@count=\count294
 \pgfmath@box=\box58
-\pgfmath@toks=\toks34
-\pgfmath@stack@operand=\toks35
-\pgfmath@stack@operation=\toks36
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.code.tex
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.basic.code.tex)
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.trigonometric.code.tex)
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.random.code.tex)
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.comparison.code.tex)
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.base.code.tex)
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.round.code.tex)
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.misc.code.tex)
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.integerarithmetics.code.tex)))
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
-.code.tex
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.code.tex)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.basic.code.tex)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.trigonometric.code.tex)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.random.code.tex)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.comparison.code.tex)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.base.code.tex)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.round.code.tex)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.misc.code.tex)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.integerarithmetics.code.tex)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.c
+ode.tex)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.
+code.tex
 \c@pgfmathroundto@lastzeros=\count295
 ))
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
-tex)
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epoints.code.tex
-File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen174
-\pgf@picmaxx=\dimen175
-\pgf@picminy=\dimen176
-\pgf@picmaxy=\dimen177
-\pgf@pathminx=\dimen178
-\pgf@pathmaxx=\dimen179
-\pgf@pathminy=\dimen180
-\pgf@pathmaxy=\dimen181
-\pgf@xx=\dimen182
-\pgf@xy=\dimen183
-\pgf@yx=\dimen184
-\pgf@yy=\dimen185
-\pgf@zx=\dimen186
-\pgf@zy=\dimen187
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.t
+ex)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+points.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen176
+\pgf@picmaxx=\dimen177
+\pgf@picminy=\dimen178
+\pgf@picmaxy=\dimen179
+\pgf@pathminx=\dimen180
+\pgf@pathmaxx=\dimen181
+\pgf@pathminy=\dimen182
+\pgf@pathmaxy=\dimen183
+\pgf@xx=\dimen184
+\pgf@xy=\dimen185
+\pgf@yx=\dimen186
+\pgf@yy=\dimen187
+\pgf@zx=\dimen188
+\pgf@zy=\dimen189
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen188
-\pgf@path@lasty=\dimen189
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+pathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen190
+\pgf@path@lasty=\dimen191
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathusage.code.tex
-File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen190
-\pgf@shorten@start@additional=\dimen191
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+pathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen192
+\pgf@shorten@start@additional=\dimen193
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-escopes.code.tex
-File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+scopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box59
 \pgf@hbox=\box60
 \pgf@layerbox@main=\box61
 \pgf@picture@serial@count=\count296
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-egraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen192
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+graphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen194
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-etransformations.code.tex
-File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen193
-\pgf@pt@y=\dimen194
-\pgf@pt@temp=\dimen195
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+transformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen195
+\pgf@pt@y=\dimen196
+\pgf@pt@temp=\dimen197
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-equick.code.tex
-File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+quick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eobjects.code.tex
-File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+objects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+pathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-earrows.code.tex
-File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen196
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+arrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen198
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eshade.code.tex
-File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen197
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+shade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen199
 \pgf@sys@shading@range@num=\count297
 \pgf@shadingcount=\count298
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eimage.code.tex
-File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eexternal.code.tex
-File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+image.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+external.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box62
-))
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-elayers.code.tex
-File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-etransparency.code.tex
-File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+layers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epatterns.code.tex
-File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+transparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-erdf.code.tex
-File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+patterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+rdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-shapes.code.tex
-File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodules
+hapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box63
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-plot.code.tex
-File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulep
+lot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
-mp-version-0-65.sty
-Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen198
-\pgf@nodesepend=\dimen199
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
+p-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen256
+\pgf@nodesepend=\dimen257
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
-mp-version-1-18.sty
-Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
+p-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.st
 y
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
-ty
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-.code.tex))
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
-.tex))
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
-code.tex
-Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
-
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
-.tex)
-\pgffor@iter=\dimen256
-\pgffor@skip=\dimen257
-\pgffor@stack=\toks37
-\pgffor@toks=\toks38
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
+code.tex))
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
+tex))
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.c
+ode.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen258
+\pgffor@skip=\dimen259
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
 ))
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z\tikz.code.tex
-Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+ryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count299
-\pgfplotmarksize=\dimen258
+\pgfplotmarksize=\dimen260
 )
-\tikz@lastx=\dimen259
-\tikz@lasty=\dimen260
-\tikz@lastxsaved=\dimen261
-\tikz@lastysaved=\dimen262
-\tikz@lastmovetox=\dimen263
-\tikz@lastmovetoy=\dimen264
-\tikzleveldistance=\dimen265
-\tikzsiblingdistance=\dimen266
+\tikz@lastx=\dimen261
+\tikz@lasty=\dimen262
+\tikz@lastxsaved=\dimen263
+\tikz@lastysaved=\dimen264
+\tikz@lastmovetox=\dimen265
+\tikz@lastmovetoy=\dimen266
+\tikzleveldistance=\dimen267
+\tikzsiblingdistance=\dimen268
 \tikz@figbox=\box64
 \tikz@figbox@bg=\box65
 \tikz@tempbox=\box66
@@ -530,56 +525,56 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikznumberofcurrentchild=\count302
 \tikz@fig@count=\count303
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-matrix.code.tex
-File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulem
+atrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfmatrixcurrentrow=\count304
 \pgfmatrixcurrentcolumn=\count305
 \pgf@matrix@numberofcolumns=\count306
 )
 \tikz@expandcount=\count307
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfrac\xfrac.
-sty (C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2022-07-04 L3 programming layer (loader) 
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfrac\xfrac.s
+ty (C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-02-02 L3 programming layer (loader) 
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
+ex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count308
 \l__pdf_internal_box=\box68
 ))
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
-eys2e.sty
-Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3ke
+ys2e.sty
+Package: l3keys2e 2023-01-16 LaTeX2e option processing using LaTeX3 keys
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
-e.sty
-Package: xparse 2022-06-22 L3 Experimental document command parser
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse
+.sty
+Package: xparse 2023-01-16 L3 Experimental document command parser
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xtemplate\xt
-emplate.sty
-Package: xtemplate 2022-06-22 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen267
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xtemplate\xte
+mplate.sty
+Package: xtemplate 2023-01-16 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen269
 \l__xtemplate_tmp_int=\count309
 \l__xtemplate_tmp_muskip=\muskip18
-\l__xtemplate_tmp_skip=\skip60
+\l__xtemplate_tmp_skip=\skip61
 )
-Package: xfrac 2022-06-22 L3 Experimental split-level fractions
+Package: xfrac 2023-01-16 L3 Experimental split-level fractions
 \l__xfrac_slash_box=\box69
 \l__xfrac_tmp_box=\box70
-\l__xfrac_denominator_bot_sep_dim=\dimen268
-\l__xfrac_numerator_bot_sep_dim=\dimen269
-\l__xfrac_numerator_top_sep_dim=\dimen270
-\l__xfrac_slash_left_sep_dim=\dimen271
-\l__xfrac_slash_right_sep_dim=\dimen272
+\l__xfrac_denominator_bot_sep_dim=\dimen270
+\l__xfrac_numerator_bot_sep_dim=\dimen271
+\l__xfrac_numerator_top_sep_dim=\dimen272
+\l__xfrac_slash_left_sep_dim=\dimen273
+\l__xfrac_slash_right_sep_dim=\dimen274
 \l__xfrac_slash_left_muskip=\muskip19
 \l__xfrac_slash_right_muskip=\muskip20
 
@@ -587,69 +582,69 @@ Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
 (xtemplate)             line 80.
 
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/units\nicefrac.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/units\nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip61
-\L@UnitsRaiseTextstyle=\skip62
-\L@UnitsRaiseScriptstyle=\skip63
+\L@UnitsRaiseDisplaystyle=\skip62
+\L@UnitsRaiseTextstyle=\skip63
+\L@UnitsRaiseScriptstyle=\skip64
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryarrows.meta.code.tex
-File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowinset=\dimen273
-\pgfarrowlength=\dimen274
-\pgfarrowwidth=\dimen275
-\pgfarrowlinewidth=\dimen276
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+ryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen275
+\pgfarrowlength=\dimen276
+\pgfarrowwidth=\dimen277
+\pgfarrowlinewidth=\dimen278
 )
 Package: chemformula 2022/01/23 v4.17 typeset chemical compounds and reactions 
 (CN)
-\l__chemformula_tmpa_dim=\dimen277
-\l__chemformula_tmpb_dim=\dimen278
-\l__chemformula_tmpc_dim=\dimen279
+\l__chemformula_tmpa_dim=\dimen279
+\l__chemformula_tmpb_dim=\dimen280
+\l__chemformula_tmpc_dim=\dimen281
 \l__chemformula_tmpa_int=\count310
 \l__chemformula_tmpb_int=\count311
 \l__chemformula_tmpc_int=\count312
 \l__chemformula_tmpa_box=\box71
 \l__chemformula_tmpb_box=\box72
-\l__chemformula_arrow_length_dim=\dimen280
-\l__chemformula_arrow_label_height_dim=\dimen281
-\l__chemformula_arrow_label_offset_dim=\dimen282
-\l__chemformula_arrow_minimum_length_dim=\dimen283
-\l__chemformula_arrow_shortage_dim=\dimen284
-\l__chemformula_arrow_offset_dim=\dimen285
-\l__chemformula_arrow_yshift_dim=\dimen286
-\l__chemformula_radical_radius_dim=\dimen287
-\l__chemformula_radical_hshift_dim=\dimen288
-\l__chemformula_radical_vshift_dim=\dimen289
-\l__chemformula_radical_space_dim=\dimen290
-\l__chemformula_arrow_head_dim=\dimen291
-\l__chemformula_name_dim=\dimen292
-\l__chemformula_adduct_space_dim=\dimen293
-\l__chemformula_charge_shift_dim=\dimen294
-\l__chemformula_subscript_shift_dim=\dimen295
-\l__chemformula_superscript_shift_dim=\dimen296
-\l__chemformula_subscript_dim=\dimen297
-\l__chemformula_superscript_dim=\dimen298
-\l__chemformula_bond_dim=\dimen299
-\l__chemformula_bond_space_dim=\dimen300
-\l__chemformula_elspec_pair_distance_dim=\dimen301
-\l__chemformula_elspec_pair_line_length_dim=\dimen302
-\l__chemformula_elspec_pair_width_dim=\dimen303
-\l__chemformula_kroegervink_positive_radius_dim=\dimen304
-\l__chemformula_kroegervink_positive_hshift_dim=\dimen305
-\l__chemformula_kroegervink_positive_vshift_dim=\dimen306
-\l__chemformula_kroegervink_positive_space_dim=\dimen307
-\l__chemformula_stoich_space_skip=\skip64
-\l__chemformula_math_space_skip=\skip65
-\l__chemformula_additions_symbol_space_skip=\skip66
+\l__chemformula_arrow_length_dim=\dimen282
+\l__chemformula_arrow_label_height_dim=\dimen283
+\l__chemformula_arrow_label_offset_dim=\dimen284
+\l__chemformula_arrow_minimum_length_dim=\dimen285
+\l__chemformula_arrow_shortage_dim=\dimen286
+\l__chemformula_arrow_offset_dim=\dimen287
+\l__chemformula_arrow_yshift_dim=\dimen288
+\l__chemformula_radical_radius_dim=\dimen289
+\l__chemformula_radical_hshift_dim=\dimen290
+\l__chemformula_radical_vshift_dim=\dimen291
+\l__chemformula_radical_space_dim=\dimen292
+\l__chemformula_arrow_head_dim=\dimen293
+\l__chemformula_name_dim=\dimen294
+\l__chemformula_adduct_space_dim=\dimen295
+\l__chemformula_charge_shift_dim=\dimen296
+\l__chemformula_subscript_shift_dim=\dimen297
+\l__chemformula_superscript_shift_dim=\dimen298
+\l__chemformula_subscript_dim=\dimen299
+\l__chemformula_superscript_dim=\dimen300
+\l__chemformula_bond_dim=\dimen301
+\l__chemformula_bond_space_dim=\dimen302
+\l__chemformula_elspec_pair_distance_dim=\dimen303
+\l__chemformula_elspec_pair_line_length_dim=\dimen304
+\l__chemformula_elspec_pair_width_dim=\dimen305
+\l__chemformula_kroegervink_positive_radius_dim=\dimen306
+\l__chemformula_kroegervink_positive_hshift_dim=\dimen307
+\l__chemformula_kroegervink_positive_vshift_dim=\dimen308
+\l__chemformula_kroegervink_positive_space_dim=\dimen309
+\l__chemformula_stoich_space_skip=\skip65
+\l__chemformula_math_space_skip=\skip66
+\l__chemformula_additions_symbol_space_skip=\skip67
 \l__chemformula_count_tokens_int=\count313
 \g__chemformula_lewis_int=\count314
 \l__chemformula_arrow_arg_i_box=\box73
 \l__chemformula_arrow_arg_ii_box=\box74
 \l__chemformula_superscript_box=\box75
 \l__chemformula_subscript_box=\box76
-\l__chemformula_plus_space_skip=\skip67
-\l__chemformula_minus_space_skip=\skip68
+\l__chemformula_plus_space_skip=\skip68
+\l__chemformula_minus_space_skip=\skip69
 )
 
 LaTeX Warning: Unused global option(s):
@@ -674,45 +669,51 @@ LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
+i
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count315
-\scratchdimen=\dimen308
+\scratchdimen=\dimen310
 \scratchbox=\box77
 \nofMPsegments=\count316
 \nofMParguments=\count317
-\everyMPshowfont=\toks39
+\everyMPshowfont=\toks40
 \MPscratchCnt=\count318
-\MPscratchDim=\dimen309
+\MPscratchDim=\dimen311
 \MPnumerator=\count319
 \makeMPintoPDFobject=\count320
-\everyMPtoPDFconversion=\toks40
+\everyMPtoPDFconversion=\toks41
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
+se.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
+g
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
-Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nome
+tadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)
+))
 \c@lstlisting=\count321
 \c@maskedRefs=\count322
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/apacite\english.apc
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/apacite\english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
@@ -723,20 +724,20 @@ LaTeX Info: Redefining \BHBI on input line 130.
 (title_page.tex [1
 
 
-{C:/Users/airco/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
+{C:/Users/acer/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
 \openout2 = `abstract.aux'.
 
  (abstract.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
 
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
 
 
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [1
@@ -812,7 +813,7 @@ Chapter 3.
 
  (chapter_4.tex
 Chapter 4.
-(C:\Users\airco\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+(C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
@@ -824,12 +825,12 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
 
 
 ]
-<figures//protoresults.png, id=81, 867.24pt x 433.62pt>
+<figures//protoresults.png, id=82, 867.24pt x 433.62pt>
 File: figures//protoresults.png Graphic file (type png)
 <use figures//protoresults.png>
 Package pdftex.def Info: figures//protoresults.png  used on input line 44.
 (pdftex.def)             Requested size: 415.55249pt x 207.77794pt.
-<figures//protoStreetView.png, id=83, 1443.14156pt x 813.0375pt>
+<figures//protoStreetView.png, id=84, 1443.14156pt x 813.0375pt>
 File: figures//protoStreetView.png Graphic file (type png)
 <use figures//protoStreetView.png>
 Package pdftex.def Info: figures//protoStreetView.png  used on input line 56.
@@ -838,7 +839,7 @@ Package pdftex.def Info: figures//protoStreetView.png  used on input line 56.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures//protoBirdsEye.png, id=84, 1443.14156pt x 813.0375pt>
+<figures//protoBirdsEye.png, id=85, 1443.14156pt x 813.0375pt>
 File: figures//protoBirdsEye.png Graphic file (type png)
 <use figures//protoBirdsEye.png>
 Package pdftex.def Info: figures//protoBirdsEye.png  used on input line 62.
@@ -878,19 +879,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--166
  []
 
 
-Underfull \hbox (badness 2229) in paragraph at lines 180--199
+Underfull \hbox (badness 2229) in paragraph at lines 204--223
 []\OT1/cmr/m/n/12 Enano, J. O., & Sub-ing-sub-ing, K.  (2019, Jun).  Clean air 
 act 20
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 180--199
+Underfull \hbox (badness 2401) in paragraph at lines 204--223
 \OT1/cmr/m/n/12 years later: Edsa still `worst place to be'.  \OT1/cmr/m/it/12 
 In-quirer.Net\OT1/cmr/m/n/12 .  Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--227
+Underfull \hbox (badness 10000) in paragraph at lines 235--251
 \OT1/cmtt/m/n/12 https :// emb [] .gov [] .ph / wp [] -content / uploads / 2015
  / 09 / 1 [] -Air [] -Quality [] -1 []
  []
@@ -900,43 +901,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 211--227
 
 
 ]
-Underfull \hbox (badness 1460) in paragraph at lines 319--335
+Underfull \hbox (badness 1460) in paragraph at lines 343--359
 []\OT1/cmr/m/n/12 Gandhi, R.  (2018, Jul).  \OT1/cmr/m/it/12 R-cnn, fast r-cnn,
  faster r-cnn, yolo - ob-
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 319--335
+Underfull \hbox (badness 1655) in paragraph at lines 343--359
 \OT1/cmr/m/it/12 ject de-tec-tion al-go-rithms.  \OT1/cmr/m/n/12 To-wards Data 
 Sci-ence.  Re-trieved from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--335
+Underfull \hbox (badness 10000) in paragraph at lines 343--359
 \OT1/cmtt/m/n/12 https :// towardsdatascience [] .com / r [] -cnn [] -fast [] -
 r [] -cnn [] -faster [] -r [] -cnn []
  []
 
-
-Underfull \hbox (badness 4291) in paragraph at lines 613--627
-[]\OT1/cmr/m/n/12 Saravi, S., & Ediris-inghe, E.  (2017, March).  Ve-hi-cle mak
-e and
- []
-
-
-Underfull \hbox (badness 4543) in paragraph at lines 613--627
-\OT1/cmr/m/n/12 model recog-ni-tion in CCTV footage.  Re-trieved from $\OT1/cmt
-t/m/n/12 https ://
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 613--627
-\OT1/cmtt/m/n/12 repository [] .lboro [] .ac [] .uk / articles / journal [] []c
-ontribution / Vehicle []
- []
-
 [20]
-Underfull \hbox (badness 1931) in paragraph at lines 670--689
+Underfull \hbox (badness 1931) in paragraph at lines 683--702
 \OT1/cmr/m/n/12 trieved from $\OT1/cmtt/m/n/12 https :// www [] .sciencedirect 
 [] .com / science / article / pii /
  []
@@ -944,24 +927,24 @@ Underfull \hbox (badness 1931) in paragraph at lines 670--689
 ) [21] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux
 ) (chapter_3.aux) (chapter_4.aux)) ) 
 Here is how much of TeX's memory you used:
- 18491 strings out of 478338
- 376174 string characters out of 2836700
- 841563 words of memory out of 3000000
- 36542 multiletter control sequences out of 15000+600000
- 477986 words of font info for 61 fonts, out of 8000000 for 9000
+ 18515 strings out of 476374
+ 376021 string characters out of 5789327
+ 1873340 words of memory out of 5000000
+ 38528 multiletter control sequences out of 15000+600000
+ 521014 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 99i,10n,94p,1201b,1299s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\airco\AppData\Local\MiKTeX\fonts
-/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/airco/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/airco/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/airco/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/
-airco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
-/Users/airco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti1
-2.pfb><C:/Users/airco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmtt10.pfb><C:/Users/airco/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (27 pages, 3596069 bytes).
+ 99i,10n,94p,1201b,1303s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\acer\AppData\Local\MiKTeX\fonts/
+pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/acer/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/acer/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/acer/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/acer
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/User
+s/acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+<C:/Users/acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmt
+t10.pfb><C:/Users/acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmtt12.pfb>
+Output written on main.pdf (27 pages, 3597454 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
