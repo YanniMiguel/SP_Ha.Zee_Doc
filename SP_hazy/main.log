@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.8)  8 FEB 2023 21:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.8)  5 MAY 2023 22:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -651,23 +651,27 @@ LaTeX Warning: Unused global option(s):
     [onepage].
 
 (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
-(chapter_3.aux) (chapter_4.aux))
+(chapter_3.aux) (chapter_4.aux
+
+LaTeX Warning: Label `tab:emission' multiply defined.
+
+))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 (C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
 i
@@ -721,26 +725,25 @@ LaTeX Info: Redefining \BHBI on input line 130.
 \openout2 = `title_page.aux'.
 
 
-(title_page.tex [1
-
-
-{C:/Users/acer/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
-\openout2 = `abstract.aux'.
-
- (abstract.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
-
+(title_page.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
 
 (C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 
 (C:\Users\acer\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [1
+
+
+{C:/Users/acer/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
+\openout2 = `abstract.aux'.
+
+
+(abstract.tex [1
 
 
 
@@ -767,14 +770,15 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 \openout2 = `chapter_1.aux'.
 
- (chapter_1.tex
+
+(chapter_1.tex
 Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<figures//PAQIApp.jpg, id=26, 537.50812pt x 373.395pt>
+<figures//PAQIApp.jpg, id=29, 537.50812pt x 373.395pt>
 File: figures//PAQIApp.jpg Graphic file (type jpg)
 <use figures//PAQIApp.jpg>
 Package pdftex.def Info: figures//PAQIApp.jpg  used on input line 19.
@@ -798,17 +802,28 @@ Overfull \hbox (9.25375pt too wide) in paragraph at lines 44--45
 
 
 
-] [7] [8] [9] [10]) [11]
+] [7] [8] [9] [10]
+Overfull \hbox (0.90114pt too wide) in paragraph at lines 94--95
+[]\OT1/cmr/m/n/12 The afore-men-tioned ap-pli-ca-tions use dif-fer-ent tech-niq
+ues to cal-cu-late the harm-
+ []
+
+[11]) [12]
 \openout2 = `chapter_3.aux'.
 
  (chapter_3.tex
 Chapter 3.
-[12
+[13
 
 
 
 
-] [13]) [14] [15]
+] [14]
+Overfull \hbox (95.62575pt too wide) in paragraph at lines 90--106
+ [][] 
+ []
+
+[15]) [16]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
@@ -819,36 +834,52 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 24.
 
-[16
+[17
 
 
 
 
 ]
-<figures//protoresults.png, id=82, 867.24pt x 433.62pt>
-File: figures//protoresults.png Graphic file (type png)
-<use figures//protoresults.png>
-Package pdftex.def Info: figures//protoresults.png  used on input line 44.
+Overfull \hbox (10.87962pt too wide) in paragraph at lines 60--63
+[][][][][][][][][][][][][][][][][][][]  
+ []
+
+<figures//results.png, id=87, 867.24pt x 433.62pt>
+File: figures//results.png Graphic file (type png)
+<use figures//results.png>
+Package pdftex.def Info: figures//results.png  used on input line 74.
 (pdftex.def)             Requested size: 415.55249pt x 207.77794pt.
-<figures//protoStreetView.png, id=84, 1443.14156pt x 813.0375pt>
-File: figures//protoStreetView.png Graphic file (type png)
-<use figures//protoStreetView.png>
-Package pdftex.def Info: figures//protoStreetView.png  used on input line 56.
-(pdftex.def)             Requested size: 415.55249pt x 234.11244pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[18] [19 <./figures//results.png>]
+<figures//cmd_help.png, id=97, 648.4225pt x 418.56375pt>
+File: figures//cmd_help.png Graphic file (type png)
+<use figures//cmd_help.png>
+Package pdftex.def Info: figures//cmd_help.png  used on input line 86.
+(pdftex.def)             Requested size: 415.55249pt x 268.24391pt.
+ [20 <./figures//cmd_help.png>]
+<figures//StreetView.png, id=102, 1019.81pt x 575.14874pt>
+File: figures//StreetView.png Graphic file (type png)
+<use figures//StreetView.png>
+Package pdftex.def Info: figures//StreetView.png  used on input line 104.
+(pdftex.def)             Requested size: 415.55249pt x 234.36446pt.
+<figures//BirdsEye.png, id=103, 1659.19875pt x 932.48375pt>
+File: figures//BirdsEye.png Graphic file (type png)
+<use figures//BirdsEye.png>
+Package pdftex.def Info: figures//BirdsEye.png  used on input line 110.
+(pdftex.def)             Requested size: 415.55249pt x 233.53299pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures//protoBirdsEye.png, id=85, 1443.14156pt x 813.0375pt>
-File: figures//protoBirdsEye.png Graphic file (type png)
-<use figures//protoBirdsEye.png>
-Package pdftex.def Info: figures//protoBirdsEye.png  used on input line 62.
-(pdftex.def)             Requested size: 415.55249pt x 234.11244pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [17 <./figures//protoresults.png>] [18 <./figures//protoStreetView.png (PNG c
-opy)> <./figures//protoBirdsEye.png (PNG copy)>] (main.bbl
+[21 <./figures//StreetView.png>] [22 <./figures//BirdsEye.png>]
+<figures//logfile.png, id=112, 1194.4625pt x 373.395pt>
+File: figures//logfile.png Graphic file (type png)
+<use figures//logfile.png>
+Package pdftex.def Info: figures//logfile.png  used on input line 143.
+(pdftex.def)             Requested size: 415.55249pt x 129.90395pt.
+) [23 <./figures//logfile.png>] (main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 14--30
 \OT1/cmtt/m/n/12 articles / news / asia / news [] -health [] -experts [] -phili
 ppines [] -lead [] -fight []
@@ -896,7 +927,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 235--251
  / 09 / 1 [] -Air [] -Quality [] -1 []
  []
 
-[19
+[24
 
 
 
@@ -918,35 +949,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 343--359
 r [] -cnn [] -faster [] -r [] -cnn []
  []
 
-[20]
-Underfull \hbox (badness 1931) in paragraph at lines 683--702
+[25]
+Underfull \hbox (badness 1931) in paragraph at lines 732--751
 \OT1/cmr/m/n/12 trieved from $\OT1/cmtt/m/n/12 https :// www [] .sciencedirect 
 [] .com / science / article / pii /
  []
 
-) [21] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux
-) (chapter_3.aux) (chapter_4.aux)) ) 
+
+Underfull \hbox (badness 2111) in paragraph at lines 820--830
+[]\OT1/cmr/m/it/12 Who-disability-adjusted life years (dalys).  \OT1/cmr/m/n/12
+ (n.d.[]).  World Health Or-ga-
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 820--830
+\OT1/cmr/m/n/12 ni-za-tion.  Re-trieved from $\OT1/cmtt/m/n/12 https :// www []
+ .who [] .int / data / gho / indicator []
+ []
+
+) [26] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux
+) (chapter_3.aux) (chapter_4.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 18515 strings out of 476374
- 376021 string characters out of 5789327
- 1873340 words of memory out of 5000000
- 38528 multiletter control sequences out of 15000+600000
- 521014 words of font info for 65 fonts, out of 8000000 for 9000
+ 18571 strings out of 476374
+ 376766 string characters out of 5789327
+ 1876340 words of memory out of 5000000
+ 38582 multiletter control sequences out of 15000+600000
+ 522669 words of font info for 72 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 99i,10n,94p,1201b,1303s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\acer\AppData\Local\MiKTeX\fonts/
-pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/acer/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/acer/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/acer/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/acer
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/User
-s/acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-<C:/Users/acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmt
-t10.pfb><C:/Users/acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmtt12.pfb>
-Output written on main.pdf (27 pages, 3597454 bytes).
+ 99i,14n,94p,1201b,1303s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\acer\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
+200.pk><C:/Users/acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb><C:/Users/acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmcsc10.pfb><C:/Users/acer/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb><C:/Users/acer/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/acer/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/acer/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/acer/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/acer/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/a
+cer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (32 pages, 4680283 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
+ 171 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

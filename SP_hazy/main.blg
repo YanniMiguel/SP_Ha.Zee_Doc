@@ -35,45 +35,45 @@ Warning--entry type for "DVN/POREXF_2020" isn't style-file defined
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in FabianGota2009
 Warning--No journal in NathDeb2012
-You've used 33 entries,
+You've used 36 entries,
             6951 wiz_defined-function locations,
-            1490 strings with 17050 characters,
-and the built_in function-call counts, 58178 in all, are:
-= -- 7063
-> -- 453
-< -- 2696
-+ -- 2636
-- -- 80
-* -- 3669
-:= -- 10467
-add.period$ -- 135
-call.type$ -- 33
-change.case$ -- 469
+            1506 strings with 17563 characters,
+and the built_in function-call counts, 63113 in all, are:
+= -- 7680
+> -- 472
+< -- 2938
++ -- 2863
+- -- 82
+* -- 3990
+:= -- 11347
+add.period$ -- 146
+call.type$ -- 36
+change.case$ -- 505
 chr.to.int$ -- 0
-cite$ -- 68
-duplicate$ -- 1539
-empty$ -- 2554
-format.name$ -- 762
-if$ -- 11224
+cite$ -- 74
+duplicate$ -- 1647
+empty$ -- 2800
+format.name$ -- 794
+if$ -- 12204
 int.to.chr$ -- 0
-int.to.str$ -- 99
+int.to.str$ -- 108
 missing$ -- 0
-newline$ -- 838
-num.names$ -- 242
-pop$ -- 1597
+newline$ -- 898
+num.names$ -- 250
+pop$ -- 1764
 preamble$ -- 1
-purify$ -- 146
+purify$ -- 155
 quote$ -- 0
-skip$ -- 3406
+skip$ -- 3675
 stack$ -- 0
-substring$ -- 2863
-swap$ -- 832
-text.length$ -- 102
+substring$ -- 3100
+swap$ -- 893
+text.length$ -- 107
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2912
+type$ -- 3200
 warning$ -- 2
-while$ -- 281
+while$ -- 296
 width$ -- 0
-write$ -- 1008
+write$ -- 1085
 (There was 1 error message)

@@ -8,7 +8,7 @@ The Department of Environment and Natural Resources (DENR) expressed in their we
 
 An example of air quality monitoring system that the DENR uses is the Differential Optical Absorption Spectroscopy (DOAS). \cite{DENR_ND}. DOAS captures light that passes through the atmosphere, to measure different wavelengths that were absorbed by different gasses. This method can accurately measure trace gasses absorption and it is simpler and less expensive to operate. DOAS, however, is greatly affected by turbulence in the atmosphere \cite{PlattEtAl2008}. DENR also has particulate matter stations that records PM 2.5 and PM 10. \cite{DENR_ND}
 
-DOAS equipment needs frequent maintenance to be able to operate normally. In a news report by \cite{enano_subingsubing_2019} regarding air pollution at EDSA it was stated that the maintenance of these equipements requires “hundreds of thousands of pesos”.
+DOAS equipment needs frequent maintenance to be able to operate normally. In a news report by \cite{enano_subingsubing_2019} regarding air pollution at EDSA it was stated that the maintenance of these equipment requires “hundreds of thousands of pesos”.
 
 Currently, The way to access the data from the AQMS stations is through the website (https://air.emb.gov.ph/ambient-air-quality-monitoring/) and the play store application. Figure \ref{fig:PAQIApp} shows the contents of the application.\\
 
@@ -23,7 +23,7 @@ Currently, The way to access the data from the AQMS stations is through the webs
 \end{figure}
 
 
-In the mobile application disclaimer it is stated that the system audits are irregular and all data are subject to quality Assurance and quality control. This means that the end user may not get the accurate data that they expect when using the application. Moreover, monitoring stations are not online 24/7 which makes the data much less available.
+In the mobile application disclaimer it is stated that the system audits are irregular and all data are subject to quality Assurance and quality control. This means that the end user may not get the accurate data that they expect when using the application. Moreover, monitoring stations are not online 24/7 which makes the data less accessible.
 
 
 \section{Problem Statement}
@@ -35,7 +35,7 @@ Air pollution can come from different sources, whether it be from stationary con
 
 In the country’s attempt to mitigate the atmospheric issues, the Philippine Clean Air Act of 1999 (Republic Act No. 8749) was passed. \cite{FAO} It entails the resolution of creating a national program of air pollution management, mainly focusing on pollution prevention. Two decades later and the country still sees increasing pollutants in the air and does not show signs of the improvement that was planned.
 
-In addition to creating air pollution management programs, the Philippine Clean Air Act also aimed to utilize mass media communication in order to create awareness and active participation in air quality planning and monitoring. With the aforementioned said, a system that could satisfy that goal can be created with the newer technologies that were not present in the decades prior. Thus creating Hazy, a system that can gather information from one of the biggest contributors of air pollution and provide an estimate to emissions produced, can provide solutions to these problems. 
+In addition to creating air pollution management programs, the Philippine Clean Air Act also aimed to utilize mass media communication in order to create awareness and active participation in air quality planning and monitoring. Considering that the available technology dedicated to monitoring the air quality in the country is sparsely spread throughout the country, being accessible to more citizens can help in creating awareness at a lower cost. With the aforementioned said, a system that could satisfy that goal can be created with the newer technologies that were not present in the decades prior. Thus, Hazy was constructed, a system that can gather information from vehicles – one of the biggest contributors of air pollution and provide an estimate to emissions produced, as a solution to these problems. 
 
 
 \section{Research Objectives}
@@ -45,7 +45,7 @@ In addition to creating air pollution management programs, the Philippine Clean 
 \label{sec:generalobjective}
 
 
-The general objective of the study is to develop an application that calculates the location’s average amount of Carbon dioxide emission through the use of a vehicle detection system. This system will identify the vehicles from a live camera feed, along with their makes and models. The system will integrate the database of CO2 emissions the vehicles, which then the average will be calculated to be displayed on the application for the user to see.
+The general objective of the study is to develop an application that calculates the location’s average amount of  fine particulate matter ($PM_{2.5}$) emission from vehicles through the use of a vehicle detection system. This system will identify the vehicles on the street from a live camera feed. The system will integrate the values of $PM_{2.5}$  of different vehicles, which will be utilized to assign values to on-screen vehicles for their total average to be calculated. The average $PM_{2.5}$ value will then be displayed on the screen for the user to see.
 
 
 
@@ -112,15 +112,20 @@ Specific Objective:
 \begin{enumerate}
    
    \item To study YOLOv5 and its components to develop the application
-   \item To implement real-time vehicle detection and counting that can be used on a live camera feed
-   \item To integrate a database of vehicular CO2 emissions so the application can calculate the overall emission of an area based on the vehicles' average emission.
+   \item To implement real-time vehicle detection and counting into a system that can be used on a live camera feed
+   \item To gather a collection of images of vehicles to be used for training for a system to detect real-time traffic footage to calculate the overall emission of an area based on the vehicles' average $PM_{2.5}$ emission.
 
 \end{enumerate}
 
 
 \section{Scope and Limitations of the Research}
 \label{sec:scopelimitations}
-This application mainly focuses on the air pollution caused by traffic in the Philippines, where the researchers reside as of writing the paper. Thus, it will only be set up and used on the vehicles that travel within the country. The researchers will be limited to the amount of vehicles that are present within the database that will be used for the application. Any other information that is not present in the database will not be included in the application. Among the components of air pollutants, this study is limited to using \ch{CO2} as the emission to be identified from the vehicles. Furthermore, This study will be utilizing the YOLOv5 object identification framework  and is thus limited to the features of that version. Any other features and upgrades that are present in future versions of the framework will not be included in the study.
+This application mainly focused on the PM2.5 emitted by traffic in the Philippines, where the researchers reside as of writing the paper. Thus, it will only be set up and used on the vehicles that travel within the country. For this reason, this project has some significant difficulties in using existing databases of vehicles that are mainly found locally (i.e. jeepneys and tricycles), with little to no readily available databases existing to be utilized in the study. To avoid said vehicles from not being detected, the researchers opted to take pictures and videos of the vehicles in traffic to be used as training data. These vehicles were recorded on a smartphone and were uploaded in Roboflow, which was used to annotate them as their respective vehicle type. 
+
+However, since the vehicles with no existing databases are taken and curated by the researchers within a small time frame, this could lead to inaccuracies as the frequency of a specific vehicle to appear on the road when recording is not guaranteed. Thus, lacking in representation compared to other common vehicles such as cars.
+
+Furthermore, this study will be utilizing the YOLOv5 object identification framework  and is thus limited to the features of that version. Any other features and upgrades that are present in future versions of the framework will not be included in the study. 
+
 
 
 \begin{comment}
@@ -142,11 +147,12 @@ Each paragraph also includes a description of the scope/limitation of your study
 \section{Significance of the Research}
 \label{sec:significance}
 
-The main objective of this study is to create an application that helps its users identify the pollution level of a traffic congested area through a live video feed over the road. Furthermore, this benefits users such as those who travel frequently by the road whether it be: commuters, joggers, or workers, in which they have the opportunity to check said road’s emission levels. In such a case where levels are higher than expected, users can take premeditated measures to avoid the intake of greenhouse gasses. Moreover, this study will be of significance to individuals to immuno-compromised individuals that should steer clear of areas that can cause a negative impact on their health. 
+The main objective of this study is to create an application that helps its users identify the $PM_{2.5}$ levels of a traffic congested area through a live video feed over the road. It serves as an example on how computer vision can be utilized to get an estimate of the pollutants in an area via tracking the vehicles they come from. This poses benefits to users that want to acquire information on the pollutant levels in traffic congested areas. Civilians such as joggers can plan their travel accordingly to avoid areas if $PM_{2.5}$ levels get too high.
 
-For the environment sector, this study can help contribute to the air pollution awareness in the country, in which such data can be utilized when creating future plans and protocols to combat the rising concern for the country’s air quality.
+For the environment sector, this study can help contribute to the air pollution awareness in the country, in which such data can be utilized when creating future plans and protocols to combat the rising concern for the country’s air quality. The system is also open source so it is a benefit for the general public to use without needing a full set of gear to check on pollution levels.
 
-Lastly, as interest in the computer vision field of vehicle identification and recognition systems increases, this study can contribute to future research on said field. The study can be of help to future researchers on the topics of: computer vision and tracking vehicular greenhouse gasses emissions.
+Lastly, as interest in the computer vision field of vehicle identification and recognition systems increases, this study can contribute to future research on said field. The study can be of help to future researchers on the topics of: computer vision and tracking vehicular greenhouse gasses emissions. This may also provide data to vehicle image databases through the contribution of local vehicles from the Philippines.
+
 
 
 

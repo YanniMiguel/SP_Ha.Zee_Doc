@@ -3,6 +3,8 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Statistics of the prototype training}}{17}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Object Detection Prototype used for Traffic recorded in street view}}{18}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Object Detection Prototype used for Traffic recorded in bird's eye view}}{18}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Statistics of the prototype training}}{19}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Hazy command line help shown}}{20}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Object Detection Prototype used for Traffic recorded in street view}}{21}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Object Detection Prototype used for Traffic recorded in bird's eye view}}{22}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Example Logfile where each entry was generated for approximately 5 seconds}}{23}{}%

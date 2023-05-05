@@ -623,6 +623,24 @@ Platt, U.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {PM2.5 footprint calculator-Overview}}{%
+\APACcitebtitle {PM2.5 footprint calculator-Overview}}{%
+{\protect \APACyear {2021}}%
+}]{%
+pm25_footprint}
+\APACinsertmetastar {%
+pm25_footprint}%
+\APACrefbtitle {PM2.5 footprint calculator-Overview.} {Pm2.5 footprint
+  calculator-overview.}
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.eg.mahidol.ac.th/dept/egce/pmfootprint/overview.php}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 \APACcitebtitle {Revolutionizing the world of Vision Ai}}{%
 \APACcitebtitle {Revolutionizing the world of Vision Ai}}{%
 {\protect \APACyear {{\protect \bibnodate {}}}}%
@@ -636,6 +654,37 @@ ultralytics}%
 \APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
 \newblock
 \begin{APACrefURL} \url{https://ultralytics.com/yolov5} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rito%
+, Lopez%
+\BCBL {}\ \BBA {} Biona%
+}{%
+Rito%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+rito_lopez_biona_2021}
+\APACinsertmetastar {%
+rito_lopez_biona_2021}%
+\begin{APACrefauthors}%
+Rito, J.%
+, Lopez, N.%
+\BCBL {}\ \BBA {} Biona, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Modeling traffic flow, energy use, and emissions using
+  google maps and google street view: The case of EDSA, Philippines} {Modeling
+  traffic flow, energy use, and emissions using google maps and google street
+  view: The case of edsa, philippines}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Sustainability}{13}{12}{6682}.
+\newblock
+\begin{APACrefDOI} \doi{10.3390/su13126682} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -756,6 +805,26 @@ Vergel, K\BPBI N.%
 \newblock
 \begin{APACrefURL}
   \url{https://ncts.upd.edu.ph/tssp/wp-content/uploads/2018/08/Vergel00.pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {WHO-Disability-adjusted life years (DALYs)}}{%
+\APACcitebtitle {WHO-Disability-adjusted life years (DALYs)}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+WHO_nd}
+\APACinsertmetastar {%
+WHO_nd}%
+\APACrefbtitle {WHO-Disability-adjusted life years (DALYs).}
+  {Who-disability-adjusted life years (dalys).}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACaddressPublisher{}{World Health Organization}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.who.int/data/gho/indicator-metadata-registry/imr-details/158}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
