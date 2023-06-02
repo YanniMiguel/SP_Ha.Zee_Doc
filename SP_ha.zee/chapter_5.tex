@@ -1,0 +1,7 @@
+\chapter{Conclusion}
+
+Ha.Zee is a system that was developed for detecting vehicles and recording emissions (PM2.5). YOLOv5 was used for the training of a dataset, which contains 1550 images of different kinds of vehicles, and its accuracy was evaluated using precision, recall, and F1-score, and detecting the vehicles in a video, although a separate inference system was developed to fit the purpose of the study. 
+
+YOLOv5 is a viable tool for doing object detection on traffic vehicles as it can detect objects almost in real time provided that the equipment used was sufficient. The system was fairly accurate in detecting the relevant objects in a scene with F1-scores ranging from 0.68 to 0.91, even though it was trained with a limited and imbalanced dataset, the “Car” class being over-represented which, consequently, made the model be least accurate in that class.
+
+There are some limitations that are brought by lack of equipment and time constraints thereby for future improvements it is suggested that the dataset be populated with higher quality images, variation in the images for each class, and longer training time. Resampling could also be used to balance the dataset to eliminate bias when detecting objects. The model also struggles in low-light conditions which is a consequence of the low sensitivity of the cameras used for taking video footage. 

@@ -1,0 +1,344 @@
+%   Filename    : chapter_4.tex 
+\chapter{Results and Discussions}
+ 
+
+\section{Training Results}
+
+\subsection{Statistics}
+
+Figure \ref{fig:res} shows the statistics of how the data set performed during training.
+Notice that as the training progresses the loss values drop. This is the desired behavior as it shows that the training is making fewer mistakes as training continues.
+
+
+\begin{figure}[h!]
+	\includegraphics[width=\linewidth,scale=0.8]{statistics.png}
+	\caption{Statistics of the prototype training}
+	\label{fig:res}
+\end{figure}
+
+\newpage
+The precision is expected to increase however in the results displayed the opposite. This is not desirable as it means that the model is getting less precise as training goes on. Although, the model that will be used is the best performing one.
+
+\subsection{Confusion Matrix/F-1 Score Calculation}
+After training the model, a confusion matrix was provided (Figure \ref{fig:res}) which is useful for getting the metrics necessary to determine the accuracy of the model.
+
+\begin{figure}[h!]
+	\includegraphics[width=\linewidth,scale=0.8]{confusion_matrix.png}
+	\caption{Confusion matrix of the training}
+	\label{fig:con_mat}
+\end{figure}
+
+For this system, the F1-score was used because there was a class imbalance due to the limitations of the locations where the data was taken as shown in Figure \ref{fig:class_bal}. F1-score is a better metric to use compared to accuracy when there is a class imbalance because it measures using the number and type of errors, unlike accuracy which only calculated the number of correct predictions \cite{Korstanje_2021}. For the purposes of this study, the F1-score is synonymous with accuracy.
+
+\begin{figure}[h!]
+	\includegraphics[width=\linewidth,scale=0.8]{class_balance.png}
+	\caption{Confusion matrix of the training}
+	\label{fig:class_bal}
+\end{figure}
+
+
+To get the F1-score for multi-class classification must be calculated first with the following formulas which were taken from the Towards Data Science article \cite{Korstanje_2021}. and from Powers \citeyear{D_Powers}:
+
+
+\[{\text{Precision}}= \frac{\text{class TP}}{\text{class TP}+\text{class FP}} \]
+
+\[{\text{Recall}}= \frac{\text{class TP}}{\text{class TP}+\text{class FN}} \]
+
+\[{\text{F1}}= 2 * \frac{\text{Precision}*\text{Recall}}{\text{Precision}+\text{Recall}} \]
+
+For calculating the precision, we can get the values available in the confusion matrix in Figure 4.1. In the following example, the precision for the “Car” class is calculated using the formula:
+
+\[{\text{Precision\textsubscript{Car}}}= \frac{0.85}{0.85+(0.04+0+0.02+0+0.11+0.49)} \]
+
+\[{\text{Precision\textsubscript{Car}}}= \frac{0.85}{1.51} \]
+
+\[{\text{Precision\textsubscript{Car}}}= 0.5629139073 \]
+
+The value 0.85 was taken from the cell of the predicted and true value for the “Car” class which means that it is a true positive because the predicted objects were the true objects. The false positives from the matrix are the other classes that are predicted as the “Cars” class in the confusion matrix. Applying the method above but for the recall value of the “Car” class:
+
+
+\[{\text{Recall\textsubscript{Car}}}= \frac{0.85}{0.85+(0.01+0.01+0+0+0.01+0.11)} \]
+
+\[{\text{Recall\textsubscript{Car}}}= \frac{0.85}{0.99} \]
+
+\[{\text{Recall\textsubscript{Car}}}= 0.8585858586 \]
+
+Similar for the calculation of precision, we get 0.85 as true positive from the confusion matrix. In this case, however, the formula uses false negatives which are classes from the confusion matrix that detected a car for objects that are not cars. Using both precision and recall the F1-score can be calculated by:
+
+\[{\text{F1}\textsubscript{Car}}= 2 * \frac{0.5629139073*0.8585858586}{0.5629139073+0.8585858586} \]
+
+\[{\text{F1}\textsubscript{Car}}= 2 * \frac{0.4833099204}{1.421499766} \]
+
+\[{\text{F1}\textsubscript{Car}}= 2 * 0.34 \]
+
+\[{\text{F1}\textsubscript{Car}}= 0.68 \]
+
+With this method, the performance metrics of each class was calculated and the results are shown in Figure 4.3. 
+
+
+\begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
+	\centering
+	\caption{Table of performance metrics of each class} \vspace{0.25em}
+	\begin{tabular}{|c|c|c|c|} \hline
+		\centering Class & Precision & Recall & F1-Score \\ \hline
+		Car & 0.5629139073 & 0.8585858586  & 0.68 \\ \hline
+		Jeepney & 0.8240740741 & 0.898989899  & 0.8599033816\\ \hline
+		Motorcycle& 0.8673469388  & 0.85   & 0.8585858586 \\ \hline
+		Tricycle   & 0.9   & 0.9 & 0.9 \\ \hline
+		Truck & 0.9772727273 & 0.86 & 0.914893617 \\ \hline
+		Utility & 0.81 & 0.81 & 0.81 \\ \hline
+		
+	\end{tabular}
+	\label{tab:perf_mat}
+\end{table}
+
+
+Table \ref{tab:perf_mat} shows the Precision value calculated from each class. In the table the class with the lowest precision is the “Car” class which is also the class with the most samples, this is due to the “Car” class being over-represented in the dataset therefore making the system overfit for that particular class, meaning it might detect a car even though it should be a different object (Raj, 2019). On the contrary, the “Truck” class has the highest precision value of approximately 0.9773, which means that every time the model detects a truck there is a high chance that the model has predicted true (Powers, 2008), even though the “Truck” class is underrepresented in the dataset. This might be because the trucks are sparse in the testing dataset thus making errors rare. Meanwhile, for recall, the “Tricycle” class has the highest value, (0.9) which means that the model has a high chance of detecting true tricycles in a frame (Powers, 2008). Finally, the accuracy of each class is represented by the F1-score which in this model, all classes not including the “Car” class have an accuracy of at least 80\%. The “Car” class has an accuracy of 68\%, the lowest of all classes in this model, which was contributed by its low precision value.
+
+
+
+
+\section{Object Detection}
+
+The weights obtained through training were used in pre-recorded videos to determine if the weights were trained successfully and to see how they perform in actual video footage. The following locations were chosen by the researchers to be used for the study: Calle Weyler , De Leon St., Diversion Road, Lacson St., Roxas Ave. The locations were chosen for their variety in vehicle congestion and vehicle type (i.e. Diversion Road with a higher vehicle count; Roxas with more tricycles).  These recordings were then processed using the custom vehicle detection Python program. The “processing” includes detecting the vehicles; drawing bounding boxes; and calculating and displaying the approximation of the emission of that area. 
+
+Using the trained model,  the following are the results showing the Ha.Zee system detecting vehicles and their respective types, along with the vehicle $PM_{2.5}$ emission tracker displayed on the upper left portion of the frame. The $PM_{2.5}$ value here means the weight of particulate matter of at most 2.5 micrometers in diameter in kilograms for every kilometer. The higher the value for $PM_{2.5}$ the greater the health risk, but the interpretation of the value on the particulate matter and its consequences falls outside the scope of this study.  To validate the detection model of the system, the researchers compared the ground truth of the total vehicles in the frame via manual counting to the detected vehicles. The information on the system’s detected vehicles stored in the CSV file was utilized in this comparison. This section focuses on comparing the number of vehicles the system could detect to the actual vehicle count and does not account for the accuracy of identifying the proper vehicle type.
+
+\subsubsection{Calle Weyler (MaryMart, Iloilo City)}
+
+
+\begin{figure}
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.8\linewidth]{bounding_pics/marymart_unbounded.png}
+		\caption{Manual Count: 27 Vehicles}
+		
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.8\linewidth]{bounding_pics/marymart_bounded.png}
+		\caption{Ha.Zee Count: 17 vehicles}
+	\end{subfigure}
+	\caption{Calle Weyler Traffic Video Footage}
+\end{figure}
+
+Using the frame above to represent the video footage from Calle Weyler, Iloilo City Proper; the researchers manually counted 27 total vehicles. The most common vehicle in this frame is the car, with a count of 12. After using the trained model, the system returned a count of 17 vehicles. In this instance, the most common vehicle type detected was the jeepney, with a count of 8. The road being a route for jeepneys could have influenced their frequency in appearance.
+
+The table below shows the average of vehicles present over the course of the video duration. The average of vehicles appearing in the video is obtained through the sum of the average of a vehicle type’s appearance per second. The same process was applied to the vehicles detected by the system. The ratio between the two counts is then calculated. Of the total average of manually-counted vehicles, only 64.98\% were detected by the system. 
+
+
+
+\begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
+	\centering
+	\caption{Ratio of Manual vs. Detected average vehicles counted  (Calle Weyler)} \vspace{0.25em}
+	\begin{tabular}{|c|c|c|c|} \hline
+		\centering \textbf {Vehicle type} & Manual Count Avg. & Ha.Zee Count Avg.	&  \\ \hline
+		Car & 11.72 & 4.55  &   \\ \hline
+		Jeepney & 9.72 & 8.18  &	\\ \hline
+		Motorcycle& 4.55  & 3.55  & \\ \hline
+		Tricycle   & 0  & 0.09 & \\ \hline
+		UV & 3 & 1.18 & \\ \hline
+		Truck & 0 & 0 & \textbf{Ratio/Percentage}\\ \hline
+		
+		\textbf{Total Average} &27 & 9.145 & 0.6498\\ \hline
+		
+	\end{tabular}
+	\label{tab:calle_waley}
+\end{table}
+
+
+\subsubsection{De Leon St.  (Robinsons Place, Iloilo City)
+}
+
+
+\begin{figure}
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.8\linewidth]{bounding_pics/rob_unbound.png}
+		\caption{Manual Count: 15 Vehicles}
+		
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.8\linewidth]{bounding_pics/rob_bound.png}
+		\caption{Ha.Zee Count: 10 vehicles}
+	\end{subfigure}
+	\caption{De Leon St. Traffic Video Footage}
+\end{figure}
+
+Using the frame above to represent the video footage from De Leon St., Iloilo City; the researchers manually counted 15 total vehicles. The most common vehicles in this frame are motorcycles and tricycles, both with a count of 4. After using the trained model, the system returned a count of 10 vehicles. In this instance, the most common vehicle type detected was the jeepneys and tricycles, with a count of 3. It is noted that 2 of the detected jeepneys are false positives.
+
+The table below applies the same calculation processes as the previous location. Of the total average of manually-counted vehicles, only 73.28\% were detected by the system. 
+
+
+
+\begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
+	\centering
+	\caption{Ratio of Manual vs. Detected average vehicles counted  (De Leon St.)} \vspace{0.25em}
+	\begin{tabular}{|c|c|c|c|} \hline
+		\centering \textbf {Vehicle type} & Manual Count Avg. & Ha.Zee Count Avg.	&  \\ \hline
+		Car & 2.63 & 2  &   \\ \hline
+		Jeepney & 2 & 1.72  &	\\ \hline
+		Motorcycle& 3.55  & 1.36  & \\ \hline
+		Tricycle   & 3.45  & 3.27 & \\ \hline
+		UV & 1.63 & 1.36 & \\ \hline
+		Truck & 0 & 0 & \textbf{Ratio/Percentage}\\ \hline
+		
+		\textbf{Total Average} &13.27 & 9.72 & 0.7328 \\ \hline
+		
+	\end{tabular}
+	\label{tab:de_leon}
+\end{table}
+
+\subsubsection{Diversion Road (Jaro, Iloilo City)
+}
+
+
+\begin{figure}
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.8\linewidth]{bounding_pics/diversion_unbounded.png}
+		\caption{Manual Count: 60 Vehicles}
+		
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.8\linewidth]{bounding_pics/diversion_unbounded.png}
+		\caption{Ha.Zee Count: 42 vehicles}
+	\end{subfigure}
+	\caption{Diversion Road Traffic Video Footage}
+\end{figure}
+Using the frame above to represent the video footage from Diversion Road, Iloilo City; the researchers manually counted 60 total vehicles. The most common vehicle in this frame is the car, with a count of 46. After using the trained model, the system returned a count of 42 vehicles. In this instance, the most common vehicle type detected was also the car, with a count of 27. Cars are a big majority of this video footage, yet have a big gap in the system’s detection.
+
+The table below applies the same calculation processes as the previous location. Of the total average of manually-counted vehicles, only 71.59\% were detected by the system. 
+
+
+
+
+\begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
+	\centering
+	\caption{Ratio of Manual vs. Detected average vehicles counted  (Diversion Rd.)} \vspace{0.25em}
+	\begin{tabular}{|c|c|c|c|} \hline
+		\centering \textbf {Vehicle type} & Manual Count Avg. & Ha.Zee Count Avg.	&  \\ \hline
+		Car & 47.09 & 29.36  &   \\ \hline
+		Jeepney & 7.90 & 8.09  &	\\ \hline
+		Motorcycle& 2.72  & 0.18  & \\ \hline
+		Tricycle   & 1.72  & 0.27 & \\ \hline
+		UV & 1 & 5.82 & \\ \hline
+		Truck & 1 & 0.27 & \textbf{Ratio/Percentage}\\ \hline
+		
+		\textbf{Total Average} & 61.45 & 44 & 0.7160 \\ \hline
+		
+	\end{tabular}
+	\label{tab:diversion_rd}
+\end{table}
+
+
+
+\subsubsection{Lacson St. (Bacolod City, Negros Occidental)
+}
+
+
+\begin{figure}
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.8\linewidth]{bounding_pics/bacolod_unbound.png}
+		\caption{Manual Count: 15 Vehicles}
+		
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.8\linewidth]{bounding_pics/bacolod_unbound.png}
+		\caption{Ha.Zee Count: 12 vehicles}
+	\end{subfigure}
+	\caption{Lacson St. Traffic Video Footage}
+\end{figure}
+Using the frame above to represent the video footage from Lacson St., Bacolod City; the researchers manually counted 15 total vehicles. The most common vehicle in this frame is the car, with a count of 9. After using the trained model, the system returned a count of 12 vehicles. In this instance, the most common vehicle type detected was also the car, with a count of 5. This being a highway could be the reason why there is a lack of tricycles.
+
+The table below applies the same calculation processes as the previous location. Of the total average of manually-counted vehicles, only 58.42\% were detected by the system. 
+
+
+
+\begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
+	\centering
+	\caption{Ratio of Manual vs. Detected average vehicles counted  (Lacson St.)} \vspace{0.25em}
+	\begin{tabular}{|c|c|c|c|} \hline
+		\centering \textbf {Vehicle type} & Manual Count Avg. & Ha.Zee Count Avg.	&  \\ \hline
+		Car & 10.45 & 3.18  &   \\ \hline
+		Jeepney & 2.45 & 1.91  &	\\ \hline
+		Motorcycle& 2.27  & 2.09  & \\ \hline
+		Tricycle   & 0  & 0.09 & \\ \hline
+		UV & 1 & 2.18 & \\ \hline
+		Truck & 0 & 0 & \textbf{Ratio/Percentage}\\ \hline
+		
+		\textbf{Total Average} & 16.18 & 9.45 & 0.5842 \\ \hline
+		
+	\end{tabular}
+	\label{tab:lacson_st}
+\end{table}
+
+\subsubsection{Roxas Ave. (Roxas City, Capiz)
+}
+
+
+\begin{figure}
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.8\linewidth]{bounding_pics/roxas_unbound.png}
+		\caption{Manual Count: 10 Vehicles}
+		
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.8\linewidth]{bounding_pics/roxas_unbound.png}
+		\caption{Ha.Zee Count: 9 vehicles}
+	\end{subfigure}
+	\caption{Lacson St. Traffic Video Footage}
+\end{figure}
+Using the frame above to represent the video footage from  Roxas Ave., Roxas City; the researchers manually counted 10 total vehicles. The most common vehicle in this frame is the tricycle, with a count of 4. After using the trained model, the system returned a count of 9 vehicles. In this instance, the most common vehicle type detected was also the tricycles, with the same count of 4. The high count of Tricycles is due to it being one of the main modes of transportation.
+
+The table below applies the same calculation processes as the previous location. Of the total average of manually-counted vehicles, only 77.89\% were detected by the system. 
+
+
+
+\begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
+	\centering
+	\caption{Ratio of Manual vs. Detected average vehicles counted  (Roxas Ave.)} \vspace{0.25em}
+	\begin{tabular}{|c|c|c|c|} \hline
+		\centering \textbf {Vehicle type} & Manual Count Avg. & Ha.Zee Count Avg.	&  \\ \hline
+		Car & 0.90 & 0.54  &   \\ \hline
+		Jeepney & 0.63 & 0.64  &	\\ \hline
+		Motorcycle& 2.64  & 1.63  & \\ \hline
+		Tricycle   & 4.45  & 3.72 & \\ \hline
+		UV & 0 & 0.18 & \\ \hline
+		Truck & 0 & 0 & \textbf{Ratio/Percentage}\\ \hline
+		
+		\textbf{Total Average} & 8.63 & 6.73 & 0.7789 \\ \hline
+		
+	\end{tabular}
+	\label{tab:roxas_ave}
+\end{table}
+
+The ratio between of the actual count of the vehicles compared to the amount detected by the system varies between the 5 locations. Roxas Ave., Roxas City’s video footage has the highest percentage of 77.89\%; while Lacson St. in Bacolod City garnered the lowest percentage of 58.42\%. A factor on why Roxas Ave.’s average of vehicles detected is much closer to the average of the actual vehicles manually counted could be due to the fewer vehicles present and their distance from one another. Said distances could have also been the reason why Diversion Road’s detected cars are significantly lesser than the counted vehicles, as some cars were obstructed by other vehicles and are sometimes counted as a singular vehicle. Another factor that affected the percentages could have been the quality of the video footage used in the study. All the footages shown in the figures were taken from the smartphones of the researchers and rendered some vehicles pixelated, which led to some vehicles being indistinguishable to the system. 
+
+
+
+\begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
+	\centering
+	\caption{Average Percentage of Ha.Zee-detected Vehicles.} \vspace{0.25em}
+	\begin{tabular}{|c|c|} \hline
+		\centering \textbf {Location} & \textbf {Ratio/Percentages} \\ \hline
+		Calle Weyler & 0.6498 \\ \hline
+		De Leon St. & 0.7328 	\\ \hline
+		Diversion Road& 0.7160   \\ \hline
+		Lacson St.   & 0.5842  \\ \hline
+		Roxas Ave.  & 0.7789 \\ \hline
+		
+		\textbf{Total Average} & 0.6923 \\ \hline
+		
+	\end{tabular}
+	\label{tab:avg_perc}
+\end{table}
+
+
+Across the 5 locations, the system is averaged to detect 69.23\% of the vehicles on a given video footage. This is a reasonably acceptable rate and could be improved upon if more data on different vehicles of varying image qualities were to be added to the training of the system.
