@@ -59,7 +59,7 @@ With the aforementioned said, a system that could calculate and estimate vehicul
 \label{sec:generalobjective}
 
 
-The general objective of the study was to develop an application that estimates the location’s average amount of  pollutant emission from vehicles through the use of a vehicle detection system via computer vision. This system identified the vehicles on the street from a video recording. The system integrated the $PM_{2.5}$, \ch{CH4}, \ch{N2O}, and \ch{CO2} values of different vehicles.These values were then assigned to their respective vehicle classes to be used for calculating the total average based on the amount of the vehicles present in the footage. The average values of each pollutant were then displayed on the corner of the system's display window for the user to see.
+The general objective of the study was to develop an application that estimates the location’s average amount of  pollutant emission from vehicles through the use of a vehicle detection system via computer vision. This system identified the vehicles on the street from a video recording. The system integrated the $PM_{2.5}$, \ch{CH4}, \ch{N2O}, and \ch{CO2} values of different vehicles. These values were then assigned to their respective vehicle classes to be used for calculating the total average based on the amount of the vehicles present in the footage. The average values of each pollutant were then displayed on the corner of the system's display window for the user to see.
 
 
 
@@ -144,7 +144,7 @@ While some vehicles such as bicycles also share the road, they do not use fuel a
 
  These vehicles were recorded at public roads in the locations of Iloilo City, Iloilo; Bacolod City, Negros Occidental;and Roxas City, Capiz. The traffic footage was recorded on two smartphone cameras during morning hours and were uploaded in Roboflow, a computer vision developer framework for  preprocessing and model training techniques \cite{Bhattacharyya_2020}. This was used to annotate them as their respective vehicle type. 
 
- $PM_{2.5}$ can come from many different sources. Air Quality Ontario \citeyear{MECP_nd} states that the major sources of  $PM_{2.5}$ are "motor vehicles, smelters, power plants, industrial facilities, residential fireplaces and wood stoves, agricultural burning, and forest fires." Since this project focuses on detecting vehicles, other objects were not accounted for when calculating the total $PM_{2.5}$ in the vicinity. Thus, this application was limited to finding an estimate of the average $PM_{2.5}$ emissions produced only by vehicles.
+ $PM_{2.5}$ can come from many different sources. Air Quality Ontario \citeyear{MECP_nd} states that the major sources of  $PM_{2.5}$ are ``motor vehicles, smelters, power plants, industrial facilities, residential fireplaces and wood stoves, agricultural burning, and forest fires." Since this project focuses on detecting vehicles, other objects were not accounted for when calculating the total $PM_{2.5}$ in the vicinity. Thus, this application was limited to finding an estimate of the average $PM_{2.5}$ emissions produced only by vehicles.
 
 Furthermore, this study utilized the YOLOv5 object identification framework and was thus limited to the features of that version. Any other features and upgrades that are present in future versions of the framework were not be included in the study. 
 
@@ -169,7 +169,7 @@ Each paragraph also includes a description of the scope/limitation of your study
 \section{Significance of the Research}
 \label{sec:significance}
 
-The main objective of this study was to create an application that helps its users identify the $PM_{2.5}$ levels of a traffic congested area through a video over the road. It served as an example of how computer vision can be utilized to get an estimate of the pollutants in an area via identifying the vehicles they come from and the amount of $PM_{2.5}$ they produce. This poses benefits to users that want to acquire information on the pollutant levels in traffic-congested areas. Civilians such as joggers are likely to plan their travel accordingly to avoid areas if $PM_{2.5}$ levels get too high.
+The main objective of this study was to create an application that helps its users identify the $PM_{2.5}$, \ch{CH4}, \ch{N2O}, and \ch{CO2} level estimations of a traffic congested area through a video over the road. It served as an example of how computer vision can be utilized to get an estimate of the pollutants in an area via identifying the vehicles they come from and the amount of $PM_{2.5}$ they produce. This poses benefits to users that want to acquire information on the pollutant levels in traffic-congested areas. Civilians such as joggers are likely to plan their travel accordingly to avoid areas if $PM_{2.5}$ levels get too high.
 
 For the environmental sector, this study can help contribute to air pollution awareness in the country, in which such data can be utilized when creating plans and protocols to combat the rising concern for the country’s air quality. The system is also open source so it is a benefit for the general public to use without needing a full set of gear to check on pollution levels.
 

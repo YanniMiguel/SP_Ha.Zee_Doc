@@ -3,15 +3,14 @@
 
 \section{System Display}
 
+Figure \ref{fig:display} shows the Ha.Zee system and what it displays. The bounding boxes are placed over the vehicles they detect, along with the name and colors assigned per vehicle type. The average emissions per frame is displayed on the upper left of the screen, showing the estimated emissions of the pollutants: $PM_{2.5}$, \ch{CH4}, \ch{N2O}, and \ch{CO2}. The rectangular space where the text is displayed is colored white to provide readability of the information.
+
 \begin{figure}[!htbp]
 	\includegraphics[width=\linewidth,scale=0.8]{display_sample.png}
 	\caption{Ha.Zee system display showing the vehicles being detected and the pollutants estimated}
 	\label{fig:display}
 \end{figure}
 \FloatBarrier
-
-Figure \ref{fig:display} shows the Ha.Zee system and what it displays. The bounding boxes are placed over the vehicles they detect, along with the name and colors assigned per vehicle type. The average emissions per frame is displayed on the upper left of the screen, showing the estimated emissions of the pollutants: $PM_{2.5}$, \ch{CH4}, \ch{N2O}, and \ch{CO2}. The rectangular space where the text is displayed is colored white to provide readability of the information.
-
 
 
 \section{Training Results}
@@ -35,14 +34,14 @@ For the metric values there is precision, mean average precision, and recall. Re
  
 
 \subsection{Confusion Matrix/F-1 Score Calculation}
-After training the model, a confusion matrix was provided (figure \ref{fig:con_mat}) which depicts the normalized count of predicted versus true values of the six (6) classes and the background in the model, and is useful for getting the metrics necessary to measure the performance of the model.
+After training the model, a confusion matrix was provided (Figure \ref{fig:con_mat}) which depicts the normalized count of predicted versus true values of the six (6) classes and the background in the model, and is useful for getting the metrics necessary to measure the performance of the model.
 The normalization of the confusion matrix was obtained by dividing each of the row's elements to the sum of the entire row. The normalized elements all add up to 1.0. This allows the matrix to be read in percentages.
 
 The diagonal boxes (which are dark blue in figure \ref{fig:con_mat})indicate the true positives, wherein the predicted vehicle during training is actually the proper vehicle type. The true positives of every vehicle all have a good score, with tricycles having the highest value of 0.90 or 90\% accurately detected as tricycles. 
 
 The columns, excluding the diagonal elements (dark blue) of true positives, indicate the false negatives. These are instances where the vehicle was detected as another type (i.e. 1\% of cars were detected as either a jeepney, motorcycle, or utility vehicle).
 
-The "background" class was included for the instance where the detected object is anything but vehicle. The background row signifies the percentages of the vehicles not being detected. Meanwhile, the background column signifies the instances where a vehicle was detected but in actuality, the detected object is part of the background or is not a vehicle. The background does not have true positive as it is not part of the training process.
+The ``background" class was included for the instance where the detected object is anything but vehicle. The background row signifies the percentages of the vehicles not being detected. Meanwhile, the background column signifies the instances where a vehicle was detected but in actuality, the detected object is part of the background or is not a vehicle. The background does not have true positive as it is not part of the training process.
 
 
  The confusion matrix was made using the validation set of the training data with a confidence of 0.25 based on the source code of YOLOv5. This might cause discrepancies when running the model with real-world data as the confidence value might vary. 
@@ -98,7 +97,7 @@ The value 0.85 was taken from the cell of the predicted and true value for the �
 
 \[{\text{Recall\textsubscript{Car}}}= 0.8585858586 \]
 
-Similar for the calculation of precision, we get 0.85 as true positive from the confusion matrix. In this case, however, the formula uses false negatives which are classes from the confusion matrix that detected a car for objects that are not cars. As stated by equation \ref{eq:F1}, the F1-score can be calculated using both precision and recall. Applying the equation to the "Car" class:
+Similar for the calculation of precision, we get 0.85 as true positive from the confusion matrix. In this case, however, the formula uses false negatives which are classes from the confusion matrix that detected a car for objects that are not cars. As stated by equation \ref{eq:F1}, the F1-score can be calculated using both precision and recall. Applying the equation to the ``Car" class:
 
 \[{\text{F1}\textsubscript{Car}}= 2 * \frac{0.5629139073*0.8585858586}{0.5629139073+0.8585858586} \]
 
@@ -126,19 +125,19 @@ With this methods, the performance metrics of each class was calculated and the 
 	\caption{Table of performance metrics of each class} \vspace{0.25em}
 	\begin{tabular}{c|c|c|c|c} \hline
 		\centering \textbf{Class} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Accuracy}\\ \hline
-		Car & 0.5629139073 & 0.8585858586  & 0.68 & 0.8853868195 \\ \hline
-		Jeepney & 0.8240740741 & 0.898989899  & 0.8599033816 & 0.9584527221\\ \hline
-		Motorcycle& 0.8673469388  & 0.85   & 0.8585858586 & 0.9598853868 \\ \hline
-		Tricycle   & 0.9   & 0.9 & 0.9 & 0.9713467049\\ \hline
-		Truck & 0.9772727273 & 0.86 & 0.914893617 & 0.9770773639 \\ \hline
-		Utility & 0.81 & 0.81 & 0.81 & 0.9455587393\\ \hline
+		Car & 0.56 & 0.86  & 0.68 & 0.89 \\ \hline
+		Jeepney & 0.82 & 0.89  & 0.86 & 0.96\\ \hline
+		Motorcycle& 0.87  & 0.85   & 0.86 & 0.96 \\ \hline
+		Tricycle   & 0.9   & 0.9 & 0.9 & 0.97\\ \hline
+		Truck & 0.98 & 0.86 & 0.91 & 0.98 \\ \hline
+		Utility & 0.81 & 0.81 & 0.81 & 0.95\\ \hline
 		
 	\end{tabular}
 	\label{tab:perf_mat}
 \end{table}
 
 
-Table \ref{tab:perf_mat} showed the Precision value calculated from each class. In the table the class with the lowest precision is the “Car” class which is also the class with the most samples, this is due to the “Car” class being over-represented in the dataset therefore making the system overfit for that particular class, meaning it might detect a car even though it should be a different object \cite{Raj_2019}. On the contrary, the “Truck” class had the highest precision value of approximately 0.9773, which meant that every time the model detects a truck there is a high chance that the model has predicted true \cite{D_Powers}, even though the “Truck” class was underrepresented in the dataset. This might be because the trucks are sparse in the testing dataset thus making errors rare. Meanwhile, for recall, the “Tricycle” class had the highest value, (0.9) which meant that the model has a high chance of detecting true tricycles in a frame \cite{D_Powers}. Finally, all classes not including the “Car” class had an F1-score of at least 80\%. The “Car” class has an F1-score of 68\%, the lowest of all classes in this model, which was contributed by its low precision value.The accuracy of the model closely follows the ranking of the F1-scores, the only difference is that the ranks of the “Jeepney” and “Motorcycle” classes swapped places for the accuracy metric, also the accuracy of each class was at least 88\%. The lower accuracy observed for the "Car" class can be attributed to overfitting on the dataset. Consequently, the limited presence of "Truck" class made it less prone to misclassifications or mistakes, thus yielding a higher accuracy for this particular class compared to others.
+Table \ref{tab:perf_mat} showed the Precision value calculated from each class. In the table, the class with the lowest precision is the “Car” class which is also the class with the most samples, this is due to the “Car” class being over-represented in the dataset therefore making the system overfit for that particular class, meaning it might detect a car even though it should be a different object \cite{Raj_2019}. On the contrary, the “Truck” class had the highest precision value of approximately 0.9773, which meant that every time the model detects a truck there is a high chance that the model has predicted true \cite{D_Powers}, even though the “Truck” class was underrepresented in the dataset. This might be because the trucks are sparse in the testing dataset thus making errors rare. Meanwhile, for recall, the “Tricycle” class had the highest value, (0.9) which meant that the model has a high chance of detecting true tricycles in a frame \cite{D_Powers}. Finally, all classes not including the “Car” class had an F1-score of at least 80\%. The “Car” class has an F1-score of 68\%, the lowest of all classes in this model, which was contributed by its low precision value. The accuracy of the model closely follows the ranking of the F1-scores, the only difference is that the ranks of the “Jeepney” and “Motorcycle” classes swapped places for the accuracy metric, also the accuracy of each class was at least 88\%. The lower accuracy observed for the ``Car" class can be attributed to overfitting on the dataset. Consequently, the limited presence of "Truck" class made it less prone to misclassifications or mistakes, thus yielding a higher accuracy for this particular class compared to others.
 
 
 To find the overall F1-score of the model the macro average of the F1-scores was used. Macro averages were used instead of micro and weighted averages because macro averages put equal importance on all the classes in the model whereas weighted averages are ideal for datasets with classes having different degrees of importance and micro averages are ideal for datasets with a balanced distribution of classes \cite{Leung_2022}. The Macro averages can be calculated by finding the average of the F1-score and accuracy metric from each class \cite{Leung_2022}. To find the macro average of the F1-score and accuracy the average of their respective column were calculated from Figure 4.3.
@@ -174,9 +173,9 @@ The model had an accuracy of approximately 95\% not taking into account the erro
 
 \section{Object Detection}
 
-The weights obtained through training were used in pre-recorded videos to determine if the weights were trained successfully and to see how they perform in actual video footage. The following locations were chosen by the researchers to be used for the study: Valeria St. , De Leon St., Diversion Road, Lacson St., Roxas Ave. Valeria St. , De Leon St., Diversion Road are located in Iloilo City, Iloilo; Lacson St. is located at Bacolod City, Negros Occidental; and Roxas Ave. is located at Roxas City, Capiz.  The locations were chosen for their variety in vehicle congestion and vehicle type (i.e. Diversion Road with a higher vehicle count; Roxas with more tricycles).  These recordings were then processed using the custom vehicle detection Python program. The “processing” includes detecting the vehicles; drawing bounding boxes; and calculating and displaying the approximation of the emission of that area. 
+The weights obtained through training were used in pre-recorded videos to determine if the weights were trained successfully and to see how they perform in actual video footage. The following locations were chosen by the researchers to be used for the study: Valeria St. , De Leon St., Diversion Road, Lacson St., Roxas Ave. Valeria St., De Leon St., Diversion Road are located in Iloilo City, Iloilo; Lacson St. is located at Bacolod City, Negros Occidental; and Roxas Ave. is located at Roxas City, Capiz.  The locations were chosen for their variety in vehicle congestion and vehicle type (i.e. Diversion Road with a higher vehicle count; Roxas with more tricycles).  These recordings were then processed using the custom vehicle detection Python program. The “processing” includes detecting the vehicles; drawing bounding boxes; and calculating and displaying the approximation of the emission of that area. 
 
-Using the trained model,  the following are the results showing the Ha.Zee system detecting vehicles and their respective types, along with the vehicle $PM_{2.5}$ emission tracker displayed on the upper left portion of the frame. The $PM_{2.5}$ value here means the weight of particulate matter of at most 2.5 micrometers in diameter in kilograms for every kilometer. The higher the value for $PM_{2.5}$ the greater the health risk, but the interpretation of the value on the particulate matter and its consequences falls outside the scope of this study.  To validate the detection model of the system, the researchers compared the ground truth of the total vehicles in the frame via manual counting to the detected vehicles. The information on the system’s detected vehicles stored in the CSV file was utilized in this comparison. This section focused on comparing the number of vehicles the system could detect to the actual vehicle count and does not account for the accuracy of identifying the proper vehicle type.
+Using the trained model,  the following are the results showing the Ha.Zee system detecting vehicles and their respective types, along with the vehicle pollutant emission tracker displayed on the upper left portion of the frame. The pollutant ($PM_{2.5}$, \ch{CH4}, \ch{N2O}, and \ch{CO2}) values here means the weight of pollutant in grams for every kilometer. The higher the value for each of the pollutant, the greater the health risk, but the interpretation of the value on the particulate matter and its consequences falls outside the scope of this study.  To validate the detection model of the system, the researchers compared the ground truth of the total vehicles in the frame via manual counting to the detected vehicles. The information on the system’s detected vehicles stored in the CSV file was utilized in this comparison. This section focused on comparing the number of vehicles the system could detect to the actual vehicle count and does not account for the accuracy of identifying the proper vehicle type.
 
 \subsubsection{Valeria St. (MaryMart, Iloilo City)}
 
@@ -484,13 +483,14 @@ To assess the vehicle type that contributes the most to each pollutant, we calcu
 	\end{tabular}
 	\label{tab:avg_pollutant}
 \end{table}
+\FloatBarrier
 
 It is essential to emphasize that the presented values reflect the collected data and may not represent the overall contributions of each vehicle type to pollutants. However, based on the data analysis, certain trends can be observed.
 
-For pollutants $PM_{2.5}$, \ch{N2O}, and \ch{CO2}; the "Jeepney" class demonstrates the highest contribution. This high contribution can be attributed to the "Jeepney" class having the highest emission levels per vehicle for $PM_{2.5}$ and \ch{N2O}. In the case of \ch{CO2}, while the "Jeepney" class ranks second in terms of emission levels per vehicle, the scarcity of "Truck" objects in the captured data resulted in the "Jeepney" class having a higher overall contribution to \ch{CO2} emissions.
+For pollutants $PM_{2.5}$, \ch{N2O}, and \ch{CO2}; the ``Jeepney" class demonstrates the highest contribution. This high contribution can be attributed to the ``Jeepney" class having the highest emission levels per vehicle for $PM_{2.5}$ and \ch{N2O}. In the case of \ch{CO2}, while the ``Jeepney" class ranks second in terms of emission levels per vehicle, the scarcity of ``Truck" objects in the captured data resulted in the ``Jeepney" class having a higher overall contribution to \ch{CO2} emissions.
 
-The "Tricycle" class exhibits the highest contribution to CH4 emissions, which can be attributed to its higher CH4 emission levels per vehicle compared to other classes.
-Conversely, the "Truck" class demonstrates the least contribution to every pollutant. This is primarily due to the scarcity of "Truck" objects in the captured data, resulting in fewer instances of emission and consequently lower overall contribution to the pollutant levels analyzed.
+The ``Tricycle" class exhibits the highest contribution to CH4 emissions, which can be attributed to its higher CH4 emission levels per vehicle compared to other classes.
+Conversely, the ``Truck" class demonstrates the least contribution to every pollutant. This is primarily due to the scarcity of ``Truck" objects in the captured data, resulting in fewer instances of emission and consequently lower overall contribution to the pollutant levels analyzed.
 
 It is important to interpret these findings within the context of the specific dataset used, understanding that they may not generalize to the broader population of vehicles and pollutant contributions.
 

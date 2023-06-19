@@ -7,13 +7,13 @@ This chapter lists and discusses the specific steps and activities performed by 
 \subsection{Software}
 
 \subsubsection{Roboflow}
-According to Bhattacharyya \citeyear{Bhattacharyya_2020}, Roboflow is a " computer vision developer framework for better data collection to preprocessing, and model training techniques". Roboflow also offers a suite  of browser applications to preprocess and preparation of the data for computer vision and machine learning. Roboflow annotation will be used  to manually set bounding boxes for model training and image augmentation for the manipulation of images \cite{roboflow}.
+According to Bhattacharyya \citeyear{Bhattacharyya_2020}, Roboflow is a ``computer vision developer framework for better data collection to preprocessing, and model training techniques". Roboflow also offers a suite  of browser applications to preprocess and preparation of the data for computer vision and machine learning. Roboflow annotation was used to manually set bounding boxes for model training and image augmentation for the manipulation of images \cite{roboflow}.
 
 \subsubsection{Jupyter Notebook using Google Colab and Python}
-Jupyter Notebook and Python will be used for training and fitting the data. Jupyter notebook, using google colab,  offers free GPU with CUDA for processing, and Python, the programming language, offers essential libraries for machine learning \cite{googlecolab}.
+Jupyter Notebook and Python was used for training and fitting the data. Jupyter notebook, using Google Colab,  offers free GPU with CUDA for processing, and Python, the programming language, offers essential libraries for machine learning \cite{googlecolab}.
 
 \subsubsection{A case  for YOLOv5}
-Yolov5 is a pre-trained algorithm that uses a system of grids to detect objects from images or videos (https://docs.ultralytics.com/). This tool will be used for the vehicle detection in this project. 
+Yolov5 is a pre-trained algorithm that uses a system of grids to detect objects from images or videos (https://docs.ultralytics.com/). This tool was used for the vehicle detection in this project. 
 
 	YOLOv5 is one of the commonly used algorithm for object detection. It is faster than other object detection algorithms like Region-based Convolutional Neural Networks (RCNN), Fast RCNN, and Faster RCNN. Gandhi \citeyear{gandhi_2018} wrote in an article the comparison between the RCNN algorithms and YOLOv5. He said that the major drawbacks of RCNN are that it classifies 2000 regions per image every time it runs, it cannot run in real time and it is a fixed algorithm. Fast RCNN employs a similar algorithm to RCNN but instead of classifying regions everytime, it uses CNN to generate a convolutional feature map where the bounding regions are derived. Faster RCNN improves upon this by using a different network for predicting the regions of the proposal. In his comparison, he found that Fast RCNN improves on the speed of RCNN significantly. He also mentioned that Faster RCNN, the fastest of the RCNN algorithms, is viable for real-time object detection. 
 	
@@ -22,7 +22,7 @@ Yolov5 is a pre-trained algorithm that uses a system of grids to detect objects 
 	\begin{figure}[!htbp]
 		\centering
 		\includegraphics[scale=0.4]{compar_table.png}
-		\caption{Comparison table of Precision, Recall, and Accuracy for YOLOv3, YOLOv4, and YOLOv5}
+		\caption{Comparison table of Precision, Recall, and Accuracy for YOLOv3, YOLOv4, and YOLOv5 taken from a study by A et al.}
 		\label{fig:compar_table}
 	\end{figure}
 	\FloatBarrier
@@ -63,7 +63,7 @@ This study planned to estimate an area’s pollution level through calculating a
 
 Due to the study being conducted in the country of the Philippines, vehicles such as the local jeepney and tricycle do not have readily available image datasets. Videos and images of said vehicles in traffic were taken from different angles using a phone camera. 
 
-Figure \ref{fig:vehicle_samples} show sample images of the different vehicle classes included in the dataset. All images of the vehicles shown were taken by the researchers
+Figure \ref{fig:vehicle_samples} show sample images of the different vehicle classes included in the dataset. All images of the vehicles shown were taken by the researchers.
 
 \begin{figure}[!htbp]
 	\begin{minipage}{1\textwidth}
@@ -87,7 +87,7 @@ Figure \ref{fig:vehicle_samples} show sample images of the different vehicle cla
 \FloatBarrier
 
 \subsubsection{Class Distribution}
-Taken from Roboflow's "health check report", Figure \ref{fig:class_bal} depicts the distribution of the various classes after collecting data and annotating images. The dataset only contains data taken by the researchers.
+Taken from Roboflow's ``health check report", Figure \ref{fig:class_bal} depicts the distribution of the various classes after collecting data and annotating images. The dataset only contains data taken by the researchers.
 
 \begin{figure}[!htbp]
 	\includegraphics[width=\linewidth,scale=0.8]{class_balance.png}
@@ -96,8 +96,8 @@ Taken from Roboflow's "health check report", Figure \ref{fig:class_bal} depicts 
 \end{figure}
 \FloatBarrier
 
-The class with the highest number of samples in Figure \ref{fig:class_bal} is the "Car" class, comprising 1951 samples. Notably, the "Car" class is twice as abundant as the second-ranked class, "Motorcycle." This disparity in sample counts can be attributed to the abundance of "Car" objects at the locations where the data were collected.
-In contrast, the "Truck" class exhibits the lowest number of samples in the dataset, with only 97 instances captured. The scarcity of "Truck" samples suggests that this class is relatively less represented compared to other classes within the dataset.
+The class with the highest number of samples in Figure \ref{fig:class_bal} is the ``Car" class, comprising 1951 samples. Notably, the ``Car" class is twice as abundant as the second-ranked class, ``Motorcycle." This disparity in sample counts can be attributed to the abundance of ``Car" objects at the locations where the data were collected.
+In contrast, the ``Truck" class exhibits the lowest number of samples in the dataset, with only 97 instances captured. The scarcity of ``Truck" samples suggests that this class is relatively less represented compared to other classes within the dataset.
 
 Such disparities in sample distribution across classes can have implications for model training and performance, as it may impact the ability of the model to accurately classify and detect objects from underrepresented classes or overrepresented classes might overfit the data.
 
@@ -105,7 +105,7 @@ Such disparities in sample distribution across classes can have implications for
 
 \subsection {Preprocessing and Annotation}
 
-	Preprocessing the data includes defining the bounding box of the vehicles in the training data and augmenting the images to make the model perform better. Roboflow has an annotation tool that can be used for  training the model to detect a vehicle in an image and its type. Augmentation of the images will be done by the YOLOv5 algorithm automatically given that the Albumentation library is installed. According to Dilmegani \citeyear{dilmegani}, Augmentation can be used for transforming the images allowing the model to diversify its training data set making it perform better.
+	Preprocessing the data includes defining the bounding box of the vehicles in the training data and augmenting the images to make the model perform better. Roboflow has an annotation tool that can be used for  training the model to detect a vehicle in an image and its type. Augmentation of the images was done by the YOLOv5 algorithm automatically given that the Albumentation library is installed. According to Dilmegani \citeyear{dilmegani}, Augmentation can be used for transforming the images allowing the model to diversify its training data set making it perform better.
 	
 
 	
@@ -130,12 +130,12 @@ Figure \ref{fig:cropped_anno} uses a vehicle cropping method. In this specific e
 \end{figure}
 \FloatBarrier
 
-When generated using Roboflow, the dataset undergoes preprocessing steps to optimize training efficiency. Firstly, the images are resized to a dimension of 640x640, facilitating faster training. Additionally, the pixel order is adjusted to ensure proper alignment. To enhance performance with smaller objects, the mosaic augmentation technique is applied. The result of this preprocessing is a directory comprising the train, validation, and testing images, accompanied by the necessary "data.yaml" file, necessary for YOLOv5 training.
+When generated using Roboflow, the dataset undergoes preprocessing steps to optimize training efficiency. Firstly, the images are resized to a dimension of 640x640, facilitating faster training. Additionally, the pixel order is adjusted to ensure proper alignment. To enhance performance with smaller objects, the mosaic augmentation technique is applied. The result of this preprocessing is a directory comprising the train, validation, and testing images, accompanied by the necessary ``data.yaml" file, necessary for YOLOv5 training.
 
 
 \newpage
 
-\subsection {Training and Performance Testing}
+\subsection{Training and Performance Testing}
 The training was done using Google Colab which offers GPU compute that has CUDA available. To prevent CUDA from running out of memory during the training process of the model, the researchers opted to use 16 batches which provides enough memory per batch and also ensured that the training will not be interrupted by memory-related issues involving CUDA. Furthermore, in consideration of the time constraints and to prevent potential overfitting, the final model was trained for 100 epochs for approximately three hours using the weights obtained from a previous version of the dataset for transfer learning. The previous version was trained for 300 epochs using the yolov5x.pt pre-trained checkpoint, and was trained for approximately six hours. The trained checkpoint yolov5x.pt was used because the dataset collected was small compared to the recommended number of data \cite{Jocher_Waxmann_2022} and is expected to perform better when using transfer learning than to be trained from scratch \cite{Lihi_Gur_Arie_2023}.
 
 The values of the hyperparameters that was used during the training are shown in Table \ref{tab:hyperparameters} . The values presented are the default value of the hyperparameters of YOLOv5.
@@ -164,10 +164,57 @@ The values of the hyperparameters that was used during the training are shown in
 
 The hyperparameters were unchanged due to the substantial cost associated with evolving the hyperparameters or conducting trial-and-error experiments. Hyperparameter evolution requires extensive computational resources and is time-consuming (Jocher \& Waxmann, 2023).
 
-Table \ref{tab:hyperparameters} contains the augmentation methods utilized during training. These methods include hsv\_h, hsv\_s, hsv\_v, translate, scale, fliplr, and mosaic. hsv\_h, hsv\_s, and hsv\_v augment the HSV (Hue, Saturation, Value) values, thereby manipulating the color characteristics of an image. Translate allows the image to be shifted along an axis, adjusting its position. Scale controls the size of an image, determining its dimensions. Fliplr horizontally flips the image, creating a mirrored version. Lastly, Mosaic involves combining multiple images to form a single collage-like image. By using these augmentation techniques, the training process improves the diversity and variability of the dataset, ultimately improving the model's ability to generalize and handle various scenarios.
+Table \ref{tab:hyperparameters} also contains the augmentation methods utilized during training. These methods include hsv\_h, hsv\_s, hsv\_v, translate, scale, fliplr, and mosaic. hsv\_h, hsv\_s, and hsv\_v augment the HSV (Hue, Saturation, Value) values, thereby manipulating the color characteristics of an image. Translate allows the image to be shifted along an axis, adjusting its position. Scale controls the size of an image, determining its dimensions. Fliplr horizontally flips the image, creating a mirrored version. Lastly, Mosaic involves combining multiple images to form a single collage-like image. By using these augmentation techniques, the training process improves the diversity and variability of the dataset, ultimately improving the model's ability to generalize and handle various scenarios.
 
 To evaluate the training process and assess the performance of the model during training, YOLOv5 automatically generates graphics and visualizations which are essential in assessing the progression of the model throughout the training phase, as well as providing insights into the performance metrics of the trained model after training. These visualizations aid in deciding whether the model's performance meets the desired value.
 
+\subsubsection{Codes Used in Google Colab}
+The training was done using the “train.py” file in the YOLOv5 repository with the code of Listing \ref{lst:mounting} used in the Google Colab Notebook for training the data:
+
+\lstset{language=python,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+\begin{lstlisting}[frame=single,label={lst:mounting}, caption=Code to mount Gdrive access to YOLOv5 via cloud]
+	from google.colab import drive
+	drive.mount('/content/drive')
+	
+	%cd /content/drive/MyDrive/College/SP/git/yolov5
+	!git pull
+	
+	# !git clone https://github.com/ultralytics/yolov5  # clone
+	# %cd yolov5
+	%pip install -qr requirements.txt  # install
+	
+	import torch
+	import utils
+	display = utils.notebook_init()  # checks
+	
+\end{lstlisting}
+\FloatBarrier
+
+As mentioned in Section 3.2.4, 16 batches was used during the first training process of the model. Listing \ref{lst:training300} shows the code used for the initial training for 300 epochs, along with yolov5x.pt for the weights. 
+
+\begin{lstlisting}[frame=single,label={lst:training300}, caption=Code for the training process (16 batches and 300 epochs using yolov5x.pt pre-trained checkpoint)]
+	!python /content/drive/MyDrive/College/SP/git/yolov5/train.py --batch 16 --epochs 300 --data /content/drive/MyDrive/College/SP/data/data.yaml --weights yolov5x.pt --cache #first training
+	
+\end{lstlisting}
+\FloatBarrier
+
+After approximately six hours of the first training, the weights obtained were then used in the second training. Listing \ref{lst:training100} shows the code using the obtained weights from the previous training. 100 epochs was set for the second and final training of the model.
+
+\begin{lstlisting}[frame=single,label={lst:training100}, caption=Code for the training process (16 batches and 100 epochs using weights obtained from Listing \ref{lst:training300})]
+	!python /content/drive/MyDrive/College/SP/git/yolov5/train.py --batch 16 --epochs 100 --data /content/drive/MyDrive/College/SP/data/data.yaml --weights /content/drive/MyDrive/College/SP/Weights/May18BU/xlarge.pt --cache # second training utilizing transfer learning
+	
+\end{lstlisting}
+\FloatBarrier
 
 \section {Model Application}
 The program detect.py was run to detect objects from an external device or video file using the trained model. When detect.py is run it will start to list the objects it detects. An average emission of each vehicle type will be used. The study from Rito et al. \citeyear{rito_lopez_biona_2021} provides a table that quantifies the emission factors of energy consumption of multiple vehicle types, 6 of which are to be used in this study. The emission data from the study will be utilized for the application. Table \ref{tab:emission} shows the grams of emissions per kilometer.
@@ -203,14 +250,14 @@ The total count of the vehicle x was multiplied to its assigned pollutant value.
 
 A separate system for inference was made to allow the program to count the number of vehicles and approximate emissions. The available program for detection (detect.py) was not used because it was meant to run for general cases and not for videos and webcam footage of vehicles specifically as indicated in the github page for YOLOv5 (https://github.com/ultralytics/yolov5). 
 
+The system architecture is displayed in Figure \ref{fig:system_uml} , consisting of four distinct classes. The VehicleDetection class plays a central role in vehicle detection and emission counting. It collaborates with three other classes: VehicleCounter, EmissionCounter, and DataLogger. This design ensures that each class has a specific and well-defined role within the system.
+
 \begin{figure}[!htbp]
 	\includegraphics[width=\linewidth]{system_uml.png}
 	\caption{UML class diagram of Ha.Zee}
 	\label{fig:system_uml}
 \end{figure}
 \FloatBarrier
-
-The system architecture is displayed in Figure \ref{fig:system_uml} , consisting of four distinct classes. The VehicleDetection class plays a central role in vehicle detection and emission counting. It collaborates with three other classes: VehicleCounter, EmissionCounter, and DataLogger. This design ensures that each class has a specific and well-defined role within the system.
 
 The VehicleCounter class serves as a click counter, responsible for tallying the number of vehicles within a single frame. Its primary function is to count vehicles detected in each frame accurately.
 
