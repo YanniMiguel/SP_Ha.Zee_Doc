@@ -23,7 +23,14 @@ Currently, the way to access the data from the AQMS stations is through the webs
 \end{figure}
 \FloatBarrier
 
-In the mobile application disclaimer, it is stated that the system audits are irregular and all data are subject to quality assurance and quality control. This means that the end user may not get the accurate data that they expect when using the application. Moreover, monitoring stations are not online 24/7 which makes the data less accessible.
+In the mobile application disclaimer, it is stated that the system audits are irregular and all data are subject to quality assurance and quality control. This means that the end user may not get the accurate data that they expect when using the application. Furthermore, monitoring stations are not online 24/7 which makes the data less accessible.
+
+Aside from DOAS, other novel forms of air quality monitoring systems were developed for similar reasons as the existing technology being expensive. Such is the case for the study of Garcia-Gonzalez et al. \citeyear{GARCIAGONZALEZ2021107950}, wherein they used IP cameras already installed throughout the city of Montreal, Canada, and utilized object detection models to estimate the pollution coming from vehicles. The calculation of the pollution was mainly based on the vehicle’s speed that circulate in the region where the camera is pointed at.
+
+Moreover, there have been efforts to quantify the flow of vehicles in traffic and convert this information into emissions and energy use estimates. A local study by Rito et al.\citeyear{rito_lopez_biona_2021} demonstrated a method of estimating a vehicle’s emission and energy use during transportation by using crowdsourced data from Google Maps. Pollutants such as \ch{CO2} and $PM_{2.5}$ were estimated from vehicles such as tricycles and jeepneys, which contributes to the availability of pollutant data in the country.
+
+In response to the limitations of the currently existing methods of collecting air pollution data, the researchers aimed to develop a cost-effective system that utilizes the current technology such as object detection to estimate pollutant emissions from vehicles in the Philippines. The system, using recently gathered data from vehicles in the country, shall provide an immediate calculation of the pollutant data to be displayed when used. A latent effect of this study shall also contribute to increasing data on images of vehicles that are found locally in the country.
+
 
 
 \section{Problem Statement}
@@ -33,11 +40,16 @@ The Philippines, a country located in tropical Asia, is not devoid of these issu
 
 Air pollution can come from different sources, whether it be from stationary constructs like factories or mobile sources such as cars \cite{EMB_2015}. An air quality status report by the Department of Environment and Natural Resources (2015) shows that 65\% of air pollutants come from these mobile sources. This worsened as the EMB’s official site, Environmental Management Bureau \citeyear{EMB_2018}, states that based on the Emissions Inventory of 2018, the pollutant contribution of mobile sources has increased to  74\%. In places where traffic is congested could be a huge contributing factor to vehicular emissions. Vergel and Yai \citeyear{vergel_yai2000} state that the congestion in the roads of Metro Manila contributes to the worsening air quality, especially in the vicinity of the road environment.
 
-A key component of these emissions is particulate matter ($PM$): $PM_{2.5}$ and $PM_{10}$. $PM$ is a measure of solid or liquid particles in the air that are inhalable, this includes dust, smoke, and dirt \cite{EPA_2022}. Accordingly, $PM_{10}$ is the measure of inhalable particulate matter in the air that is at most 10 micrometers in diameter. Similarly, $PM_{2.5}$ is the measure of inhalable particulate matter in the air that is at most 2.5 micrometers in diameter. US EPA \citeyear{EPA_2022} additionally states that microscopic particulate matter particles can be inhaled and cause them to get to the lungs or the bloodstream which can lead to serious health problems, with $PM_{2.5}$ having the greatest risk.
+A key component of these emissions is particulate matter ($PM$): $PM_{2.5}$ and $PM_{10}$. $PM$ is a measure of solid or liquid particles in the air that are inhalable, this includes dust, smoke, and dirt \cite{EPA_2022}. Accordingly, $PM_{10}$ is the measure of inhalable particulate matter in the air that is at most 10 micrometers in diameter. Similarly, $PM_{2.5}$ is the measure of inhalable particulate matter in the air that is at most 2.5 micrometers in diameter. United States Environmental Protection Agency (US EPA) \citeyear{EPA_2022} additionally states that microscopic particulate matter particles can be inhaled and cause them to get to the lungs or the bloodstream which can lead to serious health problems, with $PM_{2.5}$ having the greatest risk.
+
+Other components of emissions that contribute to pollution are greenhouse gases. These gases are Carbon Dioxide (\ch{CO2}), Nitrous Oxide (\ch{N2O}), and Methane (\ch{CH4}). According to US EPA \citeyear{EPA_2023}, Carbon Dioxide is produced by burning fossil fuels, solid waste, trees, and other biological materials; which then enters the atmosphere. The site further defined Methane as gas the is emitted during the "production and transport of coal, natural gas, and oil." Lastly, Nitrous Oxide is another gas that is emitted during the "combustion of fossil fuels and solid waste." These greenhouse gases can be an issue to the country as they continue to increase in volume and trap heat in the atmosphere.
 
 In the country’s attempt to mitigate the atmospheric issues, the Philippine Clean Air Act of 1999 (Republic Act No. 8749) was passed \cite{FAO}. It entails the resolution of creating a national program of air pollution management, mainly focusing on pollution prevention. Two decades later and the country still sees increasing pollutants in the air and does not show signs of the improvement that was planned.
 
-In addition to creating air pollution management programs, the Philippine Clean Air Act also aimed to utilize mass media communication to create awareness and active participation in air quality planning and monitoring. Considering that the available technology dedicated to monitoring the air quality in the country is sparsely spread throughout the country, being accessible to more citizens can help in creating awareness at a lower cost. With the aforementioned said, a system that could satisfy that goal can be created with newer technologies that were not present in the decades prior. Thus, Ha.Zee was constructed, a system that can gather $PM_{2.5}$ information from vehicles – one of the biggest contributors to air pollution and provide an estimate of emissions produced, as a solution to these problems. 
+Considering that the available technology dedicated to monitoring the air quality in the country can be of help with the Philippine Clean Air Act, yet is sparsely spread throughout the country, this poses problems with the availability of information such as air quality in specific areas in the country. In addition, the scope of information taken from systems such as DOAS is limited to the overall pollutants in the air. Information on vehicular pollutant emissions is frequently not present from air monitoring sites when air quality information is displayed.
+
+With the aforementioned said, a system that could calculate and estimate vehicular emissions can be developed using new technologies to contribute to the monitoring of the air pollutants in the country. Thus, Ha.Zee, a system that can gather pollutant estimation from vehicles, was developed by integrating machine learning and computer vision methods in response to the lack of information availability.
+
 
 
 \section{Research Objectives}
@@ -47,7 +59,7 @@ In addition to creating air pollution management programs, the Philippine Clean 
 \label{sec:generalobjective}
 
 
-The general objective of the study was to develop an application that calculates the location’s average amount of  fine particulate matter ($PM_{2.5}$) emission from vehicles through the use of a vehicle detection system. This system identified the vehicles on the street from a video recording. The system integrated the values of $PM_{2.5}$  of different vehicles, which was utilized to assign values to on-screen vehicles for their total average to be calculated. The average $PM_{2.5}$ value was then be displayed on the screen for the user to see.
+The general objective of the study was to develop an application that estimates the location’s average amount of  pollutant emission from vehicles through the use of a vehicle detection system via computer vision. This system identified the vehicles on the street from a video recording. The system integrated the $PM_{2.5}$, \ch{CH4}, \ch{N2O}, and \ch{CO2} values of different vehicles.These values were then assigned to their respective vehicle classes to be used for calculating the total average based on the amount of the vehicles present in the footage. The average values of each pollutant were then displayed on the corner of the system's display window for the user to see.
 
 
 
@@ -113,9 +125,9 @@ Specific Objective:
 
 \begin{enumerate}
    
-   \item Study object detection algorithms and find the appropriate model to use for the study
-   \item Gather a collection of images of vehicles to be used and train a system that detects vehicles in traffic footage.
-   \item Calculate the estimated $PM_{2.5}$ emission values based on the detected vehicles in the traffic footage
+   \item Explore object detection algorithms and find the appropriate model to use for the study
+   \item Collect images of vehicles to be used and train a system that detects vehicles in traffic footage.
+   \item Calculate the estimated pollutant emission ($PM_{2.5}$, \ch{CH4}, \ch{N2O}, and \ch{CO2}) values based on the detected vehicles in the traffic footage
    \item Test the trained model on the video traffic footage 
    
 
@@ -124,8 +136,13 @@ Specific Objective:
 
 \section{Scope and Limitations of the Research}
 \label{sec:scopelimitations}
-This application mainly focused on the  $PM_{2.5}$ emitted by traffic in the Philippines, where the researchers reside as of writing the paper. Thus, it was only be set up and used on vehicles that travel within the country. For this reason, this project had some significant difficulties in using existing databases of vehicles that are mainly found locally (i.e. jeepneys and tricycles), with little to no readily available databases existing to be utilized in the study. To avoid said vehicles from not being detected, the researchers opted to take pictures and videos of the vehicles in traffic to be used as training data. These vehicles were recorded on a smartphone and were uploaded in Roboflow, a computer vision developer framework for  preprocessing and model training techniques \cite{Bhattacharyya_2020}. This was used to annotate them as their respective vehicle type. 
+This study mainly focused on the pollutants ($PM_{2.5}$, \ch{CH4}, \ch{N2O}, and \ch{CO2}) emitted by traffic in the Western Visayas, Philippines, where the researchers reside as of writing the paper. Thus, it was only be set up and used on vehicles that travel within the country. For this reason, this project had some significant difficulties in using existing databases of vehicles that are mainly found locally, with little to no readily available databases existing to be utilized in the study. To avoid said vehicles from not being detected, the researchers opted to take pictures and videos of the vehicles in traffic to be used as training data. 
 
+The study was limited to gathering data of the common vehicles found around the area, which were: Cars, Motorcycles, Utility Vehicles, Trucks, Tricycles, and Jeepneys. To specify, the class of "Utility Vehicles" encompass vehicles such as vans, buses, pick-up trucks, and the modern jeepneys. The distinction between the old and new jeepneys are based on their engines, wherein most old jeepneys use pre-Euro engines \cite{rito_lopez_biona_2021}. Hyundai \citeyear{Hyundai_ph} also stated that modern jeepneys from their company would be utilizing Euro 4-compliant engines. This is assumed for most types for modern jeepneys, hence why the researchers classified them as utility vehicles.
+
+While some vehicles such as bicycles also share the road, they do not use fuel and create the same pollutants stated in the study and as such, are not included in the training of the system. 
+
+ These vehicles were recorded at public roads in the locations of Iloilo City, Iloilo; Bacolod City, Negros Occidental;and Roxas City, Capiz. The traffic footage was recorded on two smartphone cameras during morning hours and were uploaded in Roboflow, a computer vision developer framework for  preprocessing and model training techniques \cite{Bhattacharyya_2020}. This was used to annotate them as their respective vehicle type. 
 
  $PM_{2.5}$ can come from many different sources. Air Quality Ontario \citeyear{MECP_nd} states that the major sources of  $PM_{2.5}$ are "motor vehicles, smelters, power plants, industrial facilities, residential fireplaces and wood stoves, agricultural burning, and forest fires." Since this project focuses on detecting vehicles, other objects were not accounted for when calculating the total $PM_{2.5}$ in the vicinity. Thus, this application was limited to finding an estimate of the average $PM_{2.5}$ emissions produced only by vehicles.
 
